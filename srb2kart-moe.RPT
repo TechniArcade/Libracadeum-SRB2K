@@ -1,0 +1,6646 @@
+-------------------
+
+Error occurred on Thursday, October 15, 2020 at 01:01:40.
+
+srb2kart-moe.exe caused an Access Violation at location 0056D3BA in module srb2kart-moe.exe Reading from location 307B3071.
+
+Registers:
+eax=0000504e ebx=15964100 ecx=00000017 edx=000000ff esi=307b2f72 edi=173d7f88
+eip=0056d3ba esp=01cefbac ebp=000000ff iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+0056D3BA 01CEFBDC 09F9DF9D 00000000  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00523A11 307B2F6F 000001FC 00026C72  srb2kart-moe.exe!R_DrawMaskedColumn
+0051BF7E 00000000 00000000 00000000  srb2kart-moe.exe!R_RenderMaskedSegRange
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1049
+KERNEL32.DLL	6.3.18362.1082
+KERNELBASE.dll	6.3.18362.1049
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+libcurl.dll 	7.69.0.0
+exchndl.dll 	0.9.0.0
+sechost.dll 	6.3.18362.959
+discord-rpc.dll
+CRYPT32.dll 	6.3.18362.592
+PSAPI.DLL   	6.3.18362.1
+RPCRT4.dll  	6.3.18362.1082
+ucrtbase.dll	6.3.18362.815
+SHELL32.dll 	6.3.18362.1049
+SspiCli.dll 	6.3.18362.1049
+MSASN1.dll  	6.3.18362.1
+cfgmgr32.dll	6.3.18362.387
+CRYPTBASE.dll	6.3.18362.1
+wldap32.dll 	6.3.18362.449
+bcryptPrimitives.dll	6.3.18362.836
+shcore.dll  	6.3.18362.959
+combase.dll 	6.3.18362.1082
+WS2_32.dll  	6.3.18362.387
+USER32.dll  	6.3.18362.997
+windows.storage.dll	6.3.18362.1082
+win32u.dll  	6.3.18362.1082
+libgme.dll
+msvcp_win.dll	6.3.18362.815
+GDI32.dll   	6.3.18362.1
+SDL2.dll    	2.0.9.0
+profapi.dll 	6.3.18362.693
+SDL2_mixer.dll	2.0.4.0
+gdi32full.dll	6.3.18362.1082
+IMM32.DLL   	6.3.18362.387
+powrprof.dll	6.3.18362.1
+ole32.dll   	6.3.18362.1082
+mgwhelp.dll 	0.9.0.0
+UMPDC.dll
+OLEAUT32.dll	6.3.18362.959
+shlwapi.dll 	6.3.18362.1
+SETUPAPI.dll	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+cryptsp.dll 	6.3.18362.1
+IPHLPAPI.DLL	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1049
+VERSION.dll 	6.3.18362.1
+winmmbase.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1082
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.207
+CoreUIComponents.dll	6.3.18362.207
+CoreMessaging.dll	6.3.18362.1049
+ntmarta.dll 	6.3.18362.1
+wintypes.dll	6.3.18362.1082
+iertutil.dll	11.0.18362.1049
+D3D9.DLL    	6.3.18362.387
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1049
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.4.14
+gpapi.dll   	6.3.18362.1
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.959
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.815
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.959
+DiscordHook.dll
+USERENV.dll 	6.3.18362.387
+mswsock.dll 	6.3.18362.815
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, October 15, 2020 at 01:56:06.
+
+srb2kart-moe.exe caused an Access Violation at location 0056D400 in module srb2kart-moe.exe Reading from location 30B6F000.
+
+Registers:
+eax=0000003f ebx=1595b300 ecx=00000006 edx=00000055 esi=30b6efc1 edi=173c6ab4
+eip=0056d400 esp=01cefbac ebp=00000500 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+0056D400 FFE6EF17 00000464 57D90276  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00523A11 00009FFF FFE741C2 01590EB0  srb2kart-moe.exe!R_DrawMaskedColumn
+0056D548 30B6EF78 000000BF 0000049A  srb2kart-moe.exe!R_Draw2sMultiPatchColumn_8_MMX
+0051BBDF 2C777A08 1ACB4E28 007F7A78  srb2kart-moe.exe!R_RenderMaskedSegRange
+0052246E 00000000 00000000 00000000  srb2kart-moe.exe!R_SortVisSprites.part.0
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1049
+KERNEL32.DLL	6.3.18362.1082
+KERNELBASE.dll	6.3.18362.1049
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.959
+libcurl.dll 	7.69.0.0
+RPCRT4.dll  	6.3.18362.1082
+exchndl.dll 	0.9.0.0
+CRYPT32.dll 	6.3.18362.592
+discord-rpc.dll
+ucrtbase.dll	6.3.18362.815
+PSAPI.DLL   	6.3.18362.1
+SspiCli.dll 	6.3.18362.1049
+MSASN1.dll  	6.3.18362.1
+SHELL32.dll 	6.3.18362.1049
+wldap32.dll 	6.3.18362.449
+cfgmgr32.dll	6.3.18362.387
+WS2_32.dll  	6.3.18362.387
+CRYPTBASE.dll	6.3.18362.1
+shcore.dll  	6.3.18362.959
+bcryptPrimitives.dll	6.3.18362.836
+libgme.dll
+USER32.dll  	6.3.18362.997
+combase.dll 	6.3.18362.1082
+win32u.dll  	6.3.18362.1082
+SDL2.dll    	2.0.9.0
+GDI32.dll   	6.3.18362.1
+windows.storage.dll	6.3.18362.1082
+SDL2_mixer.dll	2.0.4.0
+gdi32full.dll	6.3.18362.1082
+msvcp_win.dll	6.3.18362.815
+mgwhelp.dll 	0.9.0.0
+profapi.dll 	6.3.18362.693
+IMM32.DLL   	6.3.18362.387
+ole32.dll   	6.3.18362.1082
+powrprof.dll	6.3.18362.1
+OLEAUT32.dll	6.3.18362.959
+UMPDC.dll
+SETUPAPI.dll	6.3.18362.1
+shlwapi.dll 	6.3.18362.1
+IPHLPAPI.DLL	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+kernel.appcore.dll	6.3.18362.1
+cryptsp.dll 	6.3.18362.1
+dbghelp.dll 	6.3.18362.1049
+WINMM.DLL   	6.3.18362.1
+VERSION.dll 	6.3.18362.1
+winmmbase.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1082
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.207
+CoreUIComponents.dll	6.3.18362.207
+CoreMessaging.dll	6.3.18362.1049
+ntmarta.dll 	6.3.18362.1
+wintypes.dll	6.3.18362.1082
+iertutil.dll	11.0.18362.1049
+D3D9.DLL    	6.3.18362.387
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1049
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.4.14
+gpapi.dll   	6.3.18362.1
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.959
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.815
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.959
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, October 15, 2020 at 02:38:58.
+
+srb2kart-moe.exe caused an Access Violation at location 0056D3BA in module srb2kart-moe.exe Reading from location 3DEA4021.
+
+Registers:
+eax=00109cfe ebx=15975e00 ecx=00000001 edx=00000001 esi=3dea4020 edi=173d8393
+eip=0056d3ba esp=01cef93c ebp=0000007f iopl=0         nv up ei pl nz na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010202
+
+AddrPC   Params
+0056D3BA 00000F6E 000000FF 00000279  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00520D3F 00000000 00000000 00000000  srb2kart-moe.exe!R_StoreWallRange
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1049
+KERNEL32.DLL	6.3.18362.1082
+KERNELBASE.dll	6.3.18362.1049
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+libcurl.dll 	7.69.0.0
+sechost.dll 	6.3.18362.959
+exchndl.dll 	0.9.0.0
+discord-rpc.dll
+PSAPI.DLL   	6.3.18362.1
+RPCRT4.dll  	6.3.18362.1082
+CRYPT32.dll 	6.3.18362.592
+SHELL32.dll 	6.3.18362.1049
+ucrtbase.dll	6.3.18362.815
+SspiCli.dll 	6.3.18362.1049
+CRYPTBASE.dll	6.3.18362.1
+cfgmgr32.dll	6.3.18362.387
+bcryptPrimitives.dll	6.3.18362.836
+shcore.dll  	6.3.18362.959
+USER32.dll  	6.3.18362.997
+combase.dll 	6.3.18362.1082
+win32u.dll  	6.3.18362.1082
+windows.storage.dll	6.3.18362.1082
+GDI32.dll   	6.3.18362.1
+MSASN1.dll  	6.3.18362.1
+msvcp_win.dll	6.3.18362.815
+gdi32full.dll	6.3.18362.1082
+wldap32.dll 	6.3.18362.449
+profapi.dll 	6.3.18362.693
+WS2_32.dll  	6.3.18362.387
+libgme.dll
+powrprof.dll	6.3.18362.1
+SDL2.dll    	2.0.9.0
+UMPDC.dll
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.18362.387
+mgwhelp.dll 	0.9.0.0
+shlwapi.dll 	6.3.18362.1
+ole32.dll   	6.3.18362.1082
+kernel.appcore.dll	6.3.18362.1
+OLEAUT32.dll	6.3.18362.959
+cryptsp.dll 	6.3.18362.1
+SETUPAPI.dll	6.3.18362.1
+IPHLPAPI.DLL	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1049
+VERSION.dll 	6.3.18362.1
+winmmbase.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1082
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.207
+CoreMessaging.dll	6.3.18362.1049
+CoreUIComponents.dll	6.3.18362.207
+ntmarta.dll 	6.3.18362.1
+wintypes.dll	6.3.18362.1082
+iertutil.dll	11.0.18362.1049
+D3D9.DLL    	6.3.18362.387
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1049
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.4.14
+gpapi.dll   	6.3.18362.1
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.959
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.815
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.959
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, October 29, 2020 at 02:25:19.
+
+srb2kart-moe.exe caused an Access Violation at location 0056D400 in module srb2kart-moe.exe Reading from location 36E5F000.
+
+Registers:
+eax=0000007f ebx=15b36300 ecx=00000010 edx=00000034 esi=36e5ef81 edi=175c1abe
+eip=0056d400 esp=01cefbac ebp=00000500 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+0056D400 FD242E08 000004FF 15BA04AA  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00523A11 36E5EF70 0000003E 00013B70  srb2kart-moe.exe!R_DrawMaskedColumn
+0051BBDF 2D0A2550 300631F8 007F7A78  srb2kart-moe.exe!R_RenderMaskedSegRange
+0052246E 00000000 00000000 00000000  srb2kart-moe.exe!R_SortVisSprites.part.0
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1049
+KERNEL32.DLL	6.3.18362.1082
+KERNELBASE.dll	6.3.18362.1049
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.959
+libcurl.dll 	7.69.0.0
+RPCRT4.dll  	6.3.18362.1082
+discord-rpc.dll
+CRYPT32.dll 	6.3.18362.592
+exchndl.dll 	0.9.0.0
+SspiCli.dll 	6.3.18362.1049
+PSAPI.DLL   	6.3.18362.1
+ucrtbase.dll	6.3.18362.815
+CRYPTBASE.dll	6.3.18362.1
+SHELL32.dll 	6.3.18362.1049
+MSASN1.dll  	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.836
+wldap32.dll 	6.3.18362.449
+cfgmgr32.dll	6.3.18362.387
+USER32.dll  	6.3.18362.997
+WS2_32.dll  	6.3.18362.387
+shcore.dll  	6.3.18362.959
+win32u.dll  	6.3.18362.1082
+combase.dll 	6.3.18362.1082
+GDI32.dll   	6.3.18362.1
+libgme.dll
+windows.storage.dll	6.3.18362.1082
+SDL2.dll    	2.0.9.0
+msvcp_win.dll	6.3.18362.815
+IMM32.DLL   	6.3.18362.387
+SDL2_mixer.dll	2.0.4.0
+profapi.dll 	6.3.18362.693
+ole32.dll   	6.3.18362.1082
+gdi32full.dll	6.3.18362.1082
+powrprof.dll	6.3.18362.1
+OLEAUT32.dll	6.3.18362.959
+UMPDC.dll
+mgwhelp.dll 	0.9.0.0
+SETUPAPI.dll	6.3.18362.1
+shlwapi.dll 	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+cryptsp.dll 	6.3.18362.1
+IPHLPAPI.DLL	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1049
+VERSION.dll 	6.3.18362.1
+WINMMBASE.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1082
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.207
+CoreUIComponents.dll	6.3.18362.207
+CoreMessaging.dll	6.3.18362.1049
+wintypes.dll	6.3.18362.1082
+ntmarta.dll 	6.3.18362.1
+iertutil.dll	11.0.18362.1049
+D3D9.DLL    	6.3.18362.387
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1049
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+gpapi.dll   	6.3.18362.1
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.959
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.815
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.959
+mswsock.dll 	6.3.18362.815
+DNSAPI.dll  	6.3.18362.1082
+NSI.dll     	6.3.18362.449
+mdnsNSP.dll 	3.1.0.1
+rasadhlp.dll	6.3.18362.1
+fwpuclnt.dll	6.3.18362.113
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, November 12, 2020 at 02:52:58.
+
+srb2kart-moe.exe caused an Access Violation at location 0056D3BA in module srb2kart-moe.exe Reading from location 119A8038.
+
+Registers:
+eax=0001258f ebx=11673400 ecx=00000003 edx=00000000 esi=119a8038 edi=130aaaf4
+eip=0056d3ba esp=01ceefbc ebp=0000000f iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+0056D3BA 00000491 FFFFFFFF 000004FF  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00520D3F 015DE5D8 00000000 00000000  srb2kart-moe.exe!R_StoreWallRange
+0050A3AD 000004D4 000004FF 00000000  srb2kart-moe.exe!SlopeDivEx
+0050BE27 003C0000 03000000 000381CC  srb2kart-moe.exe!R_AddLine
+0050A3AD 0219E780 000000DF 000000FF  srb2kart-moe.exe!SlopeDivEx
+0050D317 00008C82 EB6BBCBB 1189D41C  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000303 000003B5 0218C218  srb2kart-moe.exe!R_RenderBSPNode
+0050BF94 0A1E2010 03000000 000341CC  srb2kart-moe.exe!R_AddLine
+0050A3AD 00000C76 EB6BBCBB 1189D484  srb2kart-moe.exe!SlopeDivEx
+0050C646 1185E5D8 00000000 000341CC  srb2kart-moe.exe!R_RenderBSPNode
+0050A3AD 0230BCBB 0341CC97 00000000  srb2kart-moe.exe!SlopeDivEx
+00514F84 00000C77 EB6BBCBB 1189D4B8  srb2kart-moe.exe!R_PointToAngleEx
+0050C646 00000C79 EB6BBCBB 1189D520  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000C7A EB6BBCBB 1189D554  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000C7B EB6BBCBB 1189D68C  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000C81 EB6BBCBB 1189D894  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000C8B EB6BBCBB 1189D8C8  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000C8C EB6BBCBB 1189D8FC  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000C8D EB6BBCBB 1189D930  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000C8E EB6BBCBB 1189D964  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000C8F EB6BBCBB 1189E3C0  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000CC2 EB6BBCBB 1189E3F4  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000CC3 EB6BBCBB 118A1A98  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000DD0 EB6BBCBB 118A4A20  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000EBA EB6BBCBB 118A4F68  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 00000ED4 EB6BBCBB 118A513C  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 14256E30 E62A82A2 024CDEB4  srb2kart-moe.exe!R_RenderBSPNode
+004C4940 026C0000 026C0000 77E81F8C  srb2kart-moe.exe!P_CameraFloorZ
+004C1ABC 00000000 118A5170 0191AD80  srb2kart-moe.exe!P_BlockLinesIterator
+77E81F8C 00000EDD EB6BBCBB 118A5170  ntdll.dll!NtAllocateVirtualMemory
+0050C646 09CBC0FC 026C0000 00004054  srb2kart-moe.exe!R_RenderBSPNode
+77E4D21F 00000EF0 EB6BBCBB 118A554C  ntdll.dll!RtlAllocateHeap
+0050C646 00000000 00000032 00000010  srb2kart-moe.exe!R_RenderBSPNode
+004601DC 00000EF1 EB6BBCBB 118BF378  srb2kart-moe.exe!K_GetKartSpeed
+0050C646 01CEFC5C 01CEFC58 00000000  srb2kart-moe.exe!R_RenderBSPNode
+77E767B7 14E714F0 00004000 00004054  ntdll.dll!RtlWow64GetProcessMachines
+76D5B1B1 0192FC4C 00000000 00000000  msvcrt.dll!wcstok_s
+004BF897 000016E8 EB6BBCBB 118BF8C0  srb2kart-moe.exe!P_MapEnd
+0050C646 019A18C0 00002180 00000000  srb2kart-moe.exe!R_RenderBSPNode
+76D5B1B1 019A18C0 00000000 000021C0  msvcrt.dll!wcstok_s
+00519B78 00001702 0000001F 000FA000  srb2kart-moe.exe!R_ClearPlanes
+00518330 01D3D200 0005EA22 00989680  srb2kart-moe.exe!R_RenderPlayerView
+00540CCB 0191AD80 77E7069A 000016C4  srb2kart-moe.exe!I_GetTimeMicros
+004021E8 000016C4 00000001 00000000  srb2kart-moe.exe!D_Display
+77E7069A 9E352AA0 00000183 00989680  ntdll.dll!RtlQueryPerformanceCounter
+00540E43 00000001 03F520D0 00000000  srb2kart-moe.exe!I_GetFracTime
+004027C9 0069E0A3 001DF604 00000040  srb2kart-moe.exe!D_SRB2Loop
+0040174A 00000020 001D0053 00000001  srb2kart-moe.exe!SDL_main
+6C956615 00000001 001D0000 01E31F16  SDL2.dll!0x16615
+005B746A 00000000 00000000 00000000  srb2kart-moe.exe!main_getcmdline
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1139
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1139
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+libcurl.dll 	7.69.0.0
+sechost.dll 	6.3.18362.959
+exchndl.dll 	0.9.0.0
+discord-rpc.dll
+RPCRT4.dll  	6.3.18362.1110
+CRYPT32.dll 	6.3.18362.592
+PSAPI.DLL   	6.3.18362.1
+ucrtbase.dll	6.3.18362.1110
+SspiCli.dll 	6.3.18362.1049
+SHELL32.dll 	6.3.18362.1110
+CRYPTBASE.dll	6.3.18362.1
+MSASN1.dll  	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.836
+cfgmgr32.dll	6.3.18362.387
+wldap32.dll 	6.3.18362.449
+WS2_32.dll  	6.3.18362.387
+USER32.dll  	6.3.18362.1110
+shcore.dll  	6.3.18362.959
+win32u.dll  	6.3.18362.1139
+libgme.dll
+GDI32.dll   	6.3.18362.1
+gdi32full.dll	6.3.18362.1139
+SDL2.dll    	2.0.9.0
+combase.dll 	6.3.18362.1139
+msvcp_win.dll	6.3.18362.1110
+IMM32.DLL   	6.3.18362.387
+ole32.dll   	6.3.18362.1082
+windows.storage.dll	6.3.18362.1082
+SDL2_mixer.dll	2.0.4.0
+OLEAUT32.dll	6.3.18362.1110
+mgwhelp.dll 	0.9.0.0
+SETUPAPI.dll	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+IPHLPAPI.DLL	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+VERSION.dll 	6.3.18362.1
+WINMMBASE.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+profapi.dll 	6.3.18362.693
+powrprof.dll	6.3.18362.1
+UMPDC.dll
+shlwapi.dll 	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1110
+cryptsp.dll 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1139
+clbcatq.dll 	2001.12.10941.16384
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1139
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+ntmarta.dll 	6.3.18362.1
+gpapi.dll   	6.3.18362.1139
+TextInputFramework.dll	6.3.18362.207
+CoreUIComponents.dll	6.3.18362.1110
+CoreMessaging.dll	6.3.18362.1049
+wintypes.dll	6.3.18362.1139
+iertutil.dll	11.0.18362.1110
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.959
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1139
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.959
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, November 12, 2020 at 22:47:03.
+
+srb2kart-moe.exe caused an Access Violation at location 0056CDD8 in module srb2kart-moe.exe Reading from location 2570A03D.
+
+Registers:
+eax=00000116 ebx=116a4900 ecx=00000001 edx=01170000 esi=25709f27 edi=1316fff5
+eip=0056cdd8 esp=01cefb98 ebp=0116ff9f iopl=0         nv up ei pl nz na pe cy
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010203
+
+AddrPC   Params
+0056CDD8 FBA946A7 25709F24 00000003  srb2kart-moe.exe!R_DrawColumn_8_ASM
+0056D42F 116A3C00 C26C8A35 403805A1  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00523A11 00008000 FC3146A7 021AA795  srb2kart-moe.exe!R_DrawMaskedColumn
+0056D548 25709F24 00000078 000002D7  srb2kart-moe.exe!R_Draw2sMultiPatchColumn_8_MMX
+0051BBDF 14C23EB0 00000052 007F7A78  srb2kart-moe.exe!R_RenderMaskedSegRange
+0052246E 00000000 00000000 00000000  srb2kart-moe.exe!R_SortVisSprites.part.0
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1139
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1139
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+libcurl.dll 	7.69.0.0
+sechost.dll 	6.3.18362.959
+discord-rpc.dll
+CRYPT32.dll 	6.3.18362.592
+RPCRT4.dll  	6.3.18362.1110
+ucrtbase.dll	6.3.18362.1110
+SspiCli.dll 	6.3.18362.1049
+exchndl.dll 	0.9.0.0
+CRYPTBASE.dll	6.3.18362.1
+MSASN1.dll  	6.3.18362.1
+PSAPI.DLL   	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.836
+wldap32.dll 	6.3.18362.449
+SHELL32.dll 	6.3.18362.1110
+WS2_32.dll  	6.3.18362.387
+USER32.dll  	6.3.18362.1110
+win32u.dll  	6.3.18362.1139
+cfgmgr32.dll	6.3.18362.387
+GDI32.dll   	6.3.18362.1
+shcore.dll  	6.3.18362.959
+gdi32full.dll	6.3.18362.1139
+libgme.dll
+msvcp_win.dll	6.3.18362.1110
+combase.dll 	6.3.18362.1139
+SDL2.dll    	2.0.9.0
+windows.storage.dll	6.3.18362.1082
+IMM32.DLL   	6.3.18362.387
+SDL2_mixer.dll	2.0.4.0
+ole32.dll   	6.3.18362.1082
+profapi.dll 	6.3.18362.693
+mgwhelp.dll 	0.9.0.0
+powrprof.dll	6.3.18362.1
+OLEAUT32.dll	6.3.18362.1110
+UMPDC.dll
+SETUPAPI.dll	6.3.18362.1
+shlwapi.dll 	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+IPHLPAPI.DLL	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1110
+cryptsp.dll 	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+VERSION.dll 	6.3.18362.1
+WINMMBASE.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1139
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.207
+CoreMessaging.dll	6.3.18362.1049
+CoreUIComponents.dll	6.3.18362.1110
+ntmarta.dll 	6.3.18362.1
+wintypes.dll	6.3.18362.1139
+iertutil.dll	11.0.18362.1110
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1139
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+gpapi.dll   	6.3.18362.1139
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.959
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1139
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.959
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, November 26, 2020 at 04:34:21.
+
+srb2kart-moe.exe caused an Access Violation at location 00441492 in module srb2kart-moe.exe Writing to location 00000000.
+
+Registers:
+eax=00000000 ebx=00000000 ecx=00000000 edx=00000001 esi=13c7d030 edi=018e0c20
+eip=00441492 esp=01cef980 ebp=01cefd18 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+00441492 00000034 00000000 00000000  srb2kart-moe.exe!G_SaveDemo
+0040F725 00000080 006A3A24 FFFFFFFF  srb2kart-moe.exe!SV_SpawnServer
+004238D9 FFFFFFFF 00000000 00000000  srb2kart-moe.exe!D_MapChange
+004119BE 54A92582 00000000 00989680  srb2kart-moe.exe!TryRunTics
+00540BA8 00000001 03EE4180 00000000  srb2kart-moe.exe!I_GetTime
+0040274F 01D903F0 0069E0A3 01CEFE44  srb2kart-moe.exe!D_SRB2Loop
+0044E38A 0069E0A3 001DF604 00000040  srb2kart-moe.exe!CONS_Printf
+0040174A 00000000 00000000 00000000  srb2kart-moe.exe!SDL_main
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1139
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1139
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+libcurl.dll 	7.69.0.0
+sechost.dll 	6.3.18362.959
+discord-rpc.dll
+exchndl.dll 	0.9.0.0
+CRYPT32.dll 	6.3.18362.592
+RPCRT4.dll  	6.3.18362.1110
+PSAPI.DLL   	6.3.18362.1
+ucrtbase.dll	6.3.18362.1110
+SspiCli.dll 	6.3.18362.1049
+SHELL32.dll 	6.3.18362.1110
+CRYPTBASE.dll	6.3.18362.1
+MSASN1.dll  	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.836
+wldap32.dll 	6.3.18362.449
+cfgmgr32.dll	6.3.18362.387
+WS2_32.dll  	6.3.18362.387
+shcore.dll  	6.3.18362.959
+USER32.dll  	6.3.18362.1110
+win32u.dll  	6.3.18362.1139
+libgme.dll
+combase.dll 	6.3.18362.1139
+GDI32.dll   	6.3.18362.1
+gdi32full.dll	6.3.18362.1139
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+windows.storage.dll	6.3.18362.1082
+IMM32.DLL   	6.3.18362.387
+msvcp_win.dll	6.3.18362.1110
+ole32.dll   	6.3.18362.1082
+profapi.dll 	6.3.18362.693
+mgwhelp.dll 	0.9.0.0
+powrprof.dll	6.3.18362.1
+OLEAUT32.dll	6.3.18362.1110
+UMPDC.dll
+SETUPAPI.dll	6.3.18362.1
+shlwapi.dll 	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+kernel.appcore.dll	6.3.18362.1110
+IPHLPAPI.DLL	6.3.18362.1
+cryptsp.dll 	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+VERSION.dll 	6.3.18362.1
+winmmbase.dll	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1139
+clbcatq.dll 	2001.12.10941.16384
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1139
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+ntmarta.dll 	6.3.18362.1
+gpapi.dll   	6.3.18362.1139
+TextInputFramework.dll	6.3.18362.207
+CoreMessaging.dll	6.3.18362.1049
+CoreUIComponents.dll	6.3.18362.1110
+wintypes.dll	6.3.18362.1139
+iertutil.dll	11.0.18362.1110
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.959
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1139
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.959
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Saturday, November 28, 2020 at 01:13:00.
+
+srb2kart-moe.exe caused an Access Violation at location 005238C6 in module srb2kart-moe.exe Reading from location 9F21B818.
+
+Registers:
+eax=ff75562c ebx=00000000 ecx=00000375 edx=00001622 esi=4a64e7a8 edi=9f21b818
+eip=005238c6 esp=01cefc30 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+005238C6 00000000 00000000 00000000  srb2kart-moe.exe!R_DrawMaskedColumn
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1139
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.959
+RPCRT4.dll  	6.3.18362.1198
+SspiCli.dll 	6.3.18362.1049
+CRYPTBASE.dll	6.3.18362.1
+libcurl.dll 	7.69.0.0
+bcryptPrimitives.dll	6.3.18362.836
+CRYPT32.dll 	6.3.18362.592
+USER32.dll  	6.3.18362.1171
+ucrtbase.dll	6.3.18362.1110
+win32u.dll  	6.3.18362.1198
+GDI32.dll   	6.3.18362.1
+discord-rpc.dll
+MSASN1.dll  	6.3.18362.1
+gdi32full.dll	6.3.18362.1139
+msvcp_win.dll	6.3.18362.1110
+WS2_32.dll  	6.3.18362.387
+wldap32.dll 	6.3.18362.449
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.18362.1
+libgme.dll
+SHELL32.dll 	6.3.18362.1171
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.18362.387
+SDL2_mixer.dll	2.0.4.0
+cfgmgr32.dll	6.3.18362.387
+ole32.dll   	6.3.18362.1082
+shcore.dll  	6.3.18362.1171
+combase.dll 	6.3.18362.1171
+windows.storage.dll	6.3.18362.1171
+OLEAUT32.dll	6.3.18362.1110
+profapi.dll 	6.3.18362.693
+IPHLPAPI.DLL	6.3.18362.1
+SETUPAPI.dll	6.3.18362.1
+powrprof.dll	6.3.18362.1
+UMPDC.dll
+bcrypt.dll  	6.3.18362.267
+shlwapi.dll 	6.3.18362.1
+mgwhelp.dll 	0.9.0.0
+kernel.appcore.dll	6.3.18362.1171
+WINMM.DLL   	6.3.18362.1
+cryptsp.dll 	6.3.18362.1
+VERSION.dll 	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+winmmbase.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.1171
+CoreUIComponents.dll	6.3.18362.1110
+CoreMessaging.dll	6.3.18362.1049
+wintypes.dll	6.3.18362.1171
+ntmarta.dll 	6.3.18362.1
+iertutil.dll	11.0.18362.1198
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1198
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+gpapi.dll   	6.3.18362.1139
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.959
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1171
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Friday, December 4, 2020 at 17:59:44.
+
+srb2kart-moe.exe caused an Access Violation at location 0056D3BA in module srb2kart-moe.exe Reading from location 1FA5F006.
+
+Registers:
+eax=00033c95 ebx=1593e100 ecx=00000003 edx=0000003d esi=1fa5efc9 edi=17333651
+eip=0056d3ba esp=01cef9ec ebp=0000003f iopl=0         nv up ei pl nz na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010202
+
+AddrPC   Params
+0056D3BA 00000418 007EA3D0 007EA3C0  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00523A11 00000407 00132379 001C2BCE  srb2kart-moe.exe!R_DrawMaskedColumn
+0050BE8F 1FA5EFB5 00000000 FFFFFFFF  srb2kart-moe.exe!R_AddLine
+0051B5EC 00000000 00000000 00000000  srb2kart-moe.exe!R_DrawRepeatMaskedColumn
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1139
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.959
+RPCRT4.dll  	6.3.18362.1198
+SspiCli.dll 	6.3.18362.1049
+CRYPTBASE.dll	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.836
+USER32.dll  	6.3.18362.1171
+win32u.dll  	6.3.18362.1198
+GDI32.dll   	6.3.18362.1
+gdi32full.dll	6.3.18362.1139
+msvcp_win.dll	6.3.18362.1110
+ucrtbase.dll	6.3.18362.1110
+WS2_32.dll  	6.3.18362.387
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.18362.592
+MSASN1.dll  	6.3.18362.1
+wldap32.dll 	6.3.18362.449
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.18362.1
+SHELL32.dll 	6.3.18362.1171
+cfgmgr32.dll	6.3.18362.387
+shcore.dll  	6.3.18362.1171
+combase.dll 	6.3.18362.1171
+windows.storage.dll	6.3.18362.1171
+profapi.dll 	6.3.18362.693
+powrprof.dll	6.3.18362.1
+UMPDC.dll
+shlwapi.dll 	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1171
+cryptsp.dll 	6.3.18362.1
+libgme.dll
+IPHLPAPI.DLL	6.3.18362.1
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.18362.387
+ole32.dll   	6.3.18362.1082
+OLEAUT32.dll	6.3.18362.1110
+SETUPAPI.dll	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+VERSION.dll 	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+WINMMBASE.dll	6.3.18362.1
+SDL2_mixer.dll	2.0.4.0
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.18362.1139
+dbgcore.DLL 	6.3.18362.1
+discord-rpc.dll
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1198
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+ntmarta.dll 	6.3.18362.1
+gpapi.dll   	6.3.18362.1139
+TextInputFramework.dll	6.3.18362.1171
+CoreUIComponents.dll	6.3.18362.1110
+CoreMessaging.dll	6.3.18362.1049
+wintypes.dll	6.3.18362.1171
+iertutil.dll	11.0.18362.1198
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.959
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1171
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+DiscordHook.dll
+USERENV.dll 	6.3.18362.1139
+mswsock.dll 	6.3.18362.815
+DNSAPI.dll  	6.3.18362.1171
+NSI.dll     	6.3.18362.1171
+mdnsNSP.dll 	3.1.0.1
+rasadhlp.dll	6.3.18362.1
+fwpuclnt.dll	6.3.18362.113
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Wednesday, December 9, 2020 at 21:25:52.
+
+srb2kart-moe.exe caused an Access Violation at location 0056D400 in module srb2kart-moe.exe Reading from location 491B8137.
+
+Registers:
+eax=000001ff ebx=15927200 ecx=00000014 edx=00000052 esi=491b7f38 edi=1735f9e5
+eip=0056d400 esp=01cefbac ebp=00000500 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+0056D400 F577D872 000004FF 8AF611CB  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00523A11 491B7F31 00000073 00000500  srb2kart-moe.exe!R_DrawMaskedColumn
+0051BBDF 4A646CF0 000003F7 000004DF  srb2kart-moe.exe!R_RenderMaskedSegRange
+00524F38 00000609 0000001F 000FA000  srb2kart-moe.exe!R_DrawMasked
+0051833F DB8C29C0 00196C3C 00989680  srb2kart-moe.exe!R_RenderPlayerView
+00540CCB 0191AD80 77E0079A 000061D7  srb2kart-moe.exe!I_GetTimeMicros
+004021E8 000061D7 00000001 00000000  srb2kart-moe.exe!D_Display
+77E0079A 1BDD7F40 00000682 00989680  ntdll.dll!RtlQueryPerformanceCounter
+00540E43 00000001 03EF7398 00000000  srb2kart-moe.exe!I_GetFracTime
+004028AA 0069E0A3 001DF604 00000040  srb2kart-moe.exe!D_SRB2Loop
+0040174A 00000000 00000000 00000000  srb2kart-moe.exe!SDL_main
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1139
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.959
+RPCRT4.dll  	6.3.18362.1198
+SspiCli.dll 	6.3.18362.1049
+CRYPTBASE.dll	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.836
+USER32.dll  	6.3.18362.1171
+win32u.dll  	6.3.18362.1198
+GDI32.dll   	6.3.18362.1
+gdi32full.dll	6.3.18362.1139
+msvcp_win.dll	6.3.18362.1110
+ucrtbase.dll	6.3.18362.1110
+WS2_32.dll  	6.3.18362.387
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.18362.592
+MSASN1.dll  	6.3.18362.1
+wldap32.dll 	6.3.18362.449
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.18362.1
+SHELL32.dll 	6.3.18362.1171
+cfgmgr32.dll	6.3.18362.387
+shcore.dll  	6.3.18362.1171
+combase.dll 	6.3.18362.1171
+windows.storage.dll	6.3.18362.1171
+profapi.dll 	6.3.18362.693
+powrprof.dll	6.3.18362.1
+UMPDC.dll
+shlwapi.dll 	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1171
+cryptsp.dll 	6.3.18362.1
+libgme.dll
+IPHLPAPI.DLL	6.3.18362.1
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.18362.387
+ole32.dll   	6.3.18362.1082
+OLEAUT32.dll	6.3.18362.1110
+SETUPAPI.dll	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+VERSION.dll 	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+WINMMBASE.dll	6.3.18362.1
+SDL2_mixer.dll	2.0.4.0
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.18362.1139
+dbgcore.DLL 	6.3.18362.1
+discord-rpc.dll
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.1171
+CoreMessaging.dll	6.3.18362.1049
+CoreUIComponents.dll	6.3.18362.1110
+ntmarta.dll 	6.3.18362.1
+wintypes.dll	6.3.18362.1171
+iertutil.dll	11.0.18362.1198
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1198
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+gpapi.dll   	6.3.18362.1139
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.959
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1171
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Sunday, December 27, 2020 at 00:52:07.
+
+srb2kart-moe.exe caused an Access Violation at location 0052823C in module srb2kart-moe.exe Reading from location 00000004.
+
+Registers:
+eax=00000000 ebx=028e0000 ecx=0000000a edx=00000000 esi=00000004 edi=00000000
+eip=0052823c esp=01cef9f0 ebp=00000000 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+0052823C 00000000 00000000 00000000  srb2kart-moe.exe!V_DrawFixedPatch.part.0
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.1237
+RPCRT4.dll  	6.3.18362.1237
+SspiCli.dll 	6.3.18362.1049
+CRYPTBASE.dll	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.1237
+USER32.dll  	6.3.18362.1256
+win32u.dll  	6.3.18362.1237
+GDI32.dll   	6.3.18362.1256
+gdi32full.dll	6.3.18362.1256
+msvcp_win.dll	6.3.18362.1110
+ucrtbase.dll	6.3.18362.1110
+WS2_32.dll  	6.3.18362.387
+libgme.dll
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.18362.592
+MSASN1.dll  	6.3.18362.1
+wldap32.dll 	6.3.18362.449
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.18362.1
+SHELL32.dll 	6.3.18362.1237
+cfgmgr32.dll	6.3.18362.387
+shcore.dll  	6.3.18362.1237
+combase.dll 	6.3.18362.1237
+windows.storage.dll	6.3.18362.1171
+profapi.dll 	6.3.18362.693
+powrprof.dll	6.3.18362.1
+UMPDC.dll
+shlwapi.dll 	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1171
+cryptsp.dll 	6.3.18362.1
+IPHLPAPI.DLL	6.3.18362.1
+SDL2_mixer.dll	2.0.4.0
+VERSION.dll 	6.3.18362.1
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.18362.387
+ole32.dll   	6.3.18362.1082
+OLEAUT32.dll	6.3.18362.1110
+WINMM.DLL   	6.3.18362.1
+SETUPAPI.dll	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+WINMMBASE.dll	6.3.18362.1
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.18362.1139
+dbgcore.DLL 	6.3.18362.1
+discord-rpc.dll
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.1171
+CoreMessaging.dll	6.3.18362.1049
+CoreUIComponents.dll	6.3.18362.1110
+ntmarta.dll 	6.3.18362.1
+wintypes.dll	6.3.18362.1237
+iertutil.dll	11.0.18362.1198
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+gpapi.dll   	6.3.18362.1139
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+mswsock.dll 	6.3.18362.815
+DNSAPI.dll  	6.3.18362.1171
+NSI.dll     	6.3.18362.1171
+mdnsNSP.dll 	3.1.0.1
+rasadhlp.dll	6.3.18362.1
+fwpuclnt.dll	6.3.18362.113
+DiscordHook.dll
+USERENV.dll 	6.3.18362.1139
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Sunday, January 3, 2021 at 14:12:01.
+
+srb2kart-moe.exe caused an Access Violation at location 004EC010 in module srb2kart-moe.exe Reading from location 9DFB5786.
+
+Registers:
+eax=1ff46cbd ebx=0001c53b ecx=246347bf edx=025d0000 esi=0003de1c edi=9dfb56de
+eip=004ec010 esp=01cef9e0 ebp=01cefac8 iopl=0         nv up ei pl nz na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010202
+
+AddrPC   Params
+004EC010 00000000 00000000 00000000  srb2kart-moe.exe!P_SetupLevel
+004369BA 00000000 01CEFB6F 00000000  srb2kart-moe.exe!G_DoLoadLevel
+004251AC 00000000 00000097 0000001D  srb2kart-moe.exe!Got_Mapcmd
+004601DC 005D0003 01341F31 004B7EC0  srb2kart-moe.exe!K_GetKartSpeed
+00514CD4 000029BD 008D0003 01341F31  srb2kart-moe.exe!R_PointToAngle2
+00502BF8 0192FC4C 00000000 7E9BE0B1  srb2kart-moe.exe!P_MoveChaseCamera
+004BF897 0191AD80 019320A0 00000000  srb2kart-moe.exe!P_MapEnd
+004FD728 0001C52F 004BF897 0192FC4C  srb2kart-moe.exe!P_Ticker
+77BE079A 00000000 01CEFD48 7E9B014C  ntdll.dll!RtlQueryPerformanceCounter
+00409CD8 00000000 00000000 00000000  srb2kart-moe.exe!GetPackets
+77BE079A 1DD7EA9D 0000010E 00989680  ntdll.dll!RtlQueryPerformanceCounter
+00540BA8 01CEFDCC 00000000 00000000  srb2kart-moe.exe!I_GetTime
+0041192D 00000000 00000000 00000000  srb2kart-moe.exe!TryRunTics
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.1237
+RPCRT4.dll  	6.3.18362.1237
+SspiCli.dll 	6.3.18362.1049
+CRYPTBASE.dll	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.1237
+USER32.dll  	6.3.18362.1256
+win32u.dll  	6.3.18362.1237
+GDI32.dll   	6.3.18362.1256
+gdi32full.dll	6.3.18362.1256
+msvcp_win.dll	6.3.18362.1110
+ucrtbase.dll	6.3.18362.1110
+WS2_32.dll  	6.3.18362.387
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.18362.1
+SHELL32.dll 	6.3.18362.1237
+cfgmgr32.dll	6.3.18362.387
+shcore.dll  	6.3.18362.1237
+combase.dll 	6.3.18362.1237
+windows.storage.dll	6.3.18362.1171
+profapi.dll 	6.3.18362.693
+powrprof.dll	6.3.18362.1
+UMPDC.dll
+shlwapi.dll 	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1171
+cryptsp.dll 	6.3.18362.1
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.18362.592
+MSASN1.dll  	6.3.18362.1
+wldap32.dll 	6.3.18362.449
+discord-rpc.dll
+IPHLPAPI.DLL	6.3.18362.1
+libgme.dll
+VERSION.dll 	6.3.18362.1
+SDL2_mixer.dll	2.0.4.0
+mgwhelp.dll 	0.9.0.0
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+WINMMBASE.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.18362.387
+ole32.dll   	6.3.18362.1082
+OLEAUT32.dll	6.3.18362.1110
+SETUPAPI.dll	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+ntmarta.dll 	6.3.18362.1
+gpapi.dll   	6.3.18362.1139
+dinput8.dll 	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+CoreMessaging.dll	6.3.18362.1049
+CoreUIComponents.dll	6.3.18362.1110
+wintypes.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+HID.DLL     	6.3.18362.1
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+TextInputFramework.dll	6.3.18362.1171
+OWExplorer.dll	2.2.82.5
+iertutil.dll	11.0.18362.1198
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Sunday, January 3, 2021 at 14:27:14.
+
+srb2kart-moe.exe caused an Access Violation at location 004EC010 in module srb2kart-moe.exe Reading from location E582CCDB.
+
+Registers:
+eax=6687231c ebx=00007802 ecx=ca500068 edx=01fd0000 esi=0003de1c edi=e582cc33
+eip=004ec010 esp=01cef9e0 ebp=01cefac8 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+004EC010 00000000 00000000 00000000  srb2kart-moe.exe!P_SetupLevel
+004369BA 00000000 01CEFB6F 00000000  srb2kart-moe.exe!G_DoLoadLevel
+004251AC 00000000 00000066 0000000D  srb2kart-moe.exe!Got_Mapcmd
+004601DC 00BF0003 01C4F94F 004B7EC0  srb2kart-moe.exe!K_GetKartSpeed
+00514CD4 00001288 00EF0003 01C4F94F  srb2kart-moe.exe!R_PointToAngle2
+00502BF8 000000B7 00000000 00000000  srb2kart-moe.exe!P_MoveChaseCamera
+77856970 0192FC4C 00000000 9ED43FCE  msvcrt.dll!__threadid
+004BF897 0191AD80 019320A0 00000000  srb2kart-moe.exe!P_MapEnd
+004FD728 0192FC4C 00000000 01CEFD48  srb2kart-moe.exe!P_Ticker
+004BF897 00000001 018CDC90 0000000B  srb2kart-moe.exe!P_MapEnd
+00443DB1 00000000 00000000 00000000  srb2kart-moe.exe!G_Ticker
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+libcurl.dll 	7.69.0.0
+sechost.dll 	6.3.18362.1237
+CRYPT32.dll 	6.3.18362.592
+discord-rpc.dll
+exchndl.dll 	0.9.0.0
+RPCRT4.dll  	6.3.18362.1237
+PSAPI.DLL   	6.3.18362.1
+ucrtbase.dll	6.3.18362.1110
+SspiCli.dll 	6.3.18362.1049
+SHELL32.dll 	6.3.18362.1237
+MSASN1.dll  	6.3.18362.1
+CRYPTBASE.dll	6.3.18362.1
+wldap32.dll 	6.3.18362.449
+bcryptPrimitives.dll	6.3.18362.1237
+cfgmgr32.dll	6.3.18362.387
+WS2_32.dll  	6.3.18362.387
+shcore.dll  	6.3.18362.1237
+USER32.dll  	6.3.18362.1256
+libgme.dll
+win32u.dll  	6.3.18362.1237
+combase.dll 	6.3.18362.1237
+GDI32.dll   	6.3.18362.1256
+SDL2.dll    	2.0.9.0
+windows.storage.dll	6.3.18362.1171
+gdi32full.dll	6.3.18362.1256
+IMM32.DLL   	6.3.18362.387
+SDL2_mixer.dll	2.0.4.0
+msvcp_win.dll	6.3.18362.1110
+ole32.dll   	6.3.18362.1082
+profapi.dll 	6.3.18362.693
+mgwhelp.dll 	0.9.0.0
+OLEAUT32.dll	6.3.18362.1110
+powrprof.dll	6.3.18362.1
+SETUPAPI.dll	6.3.18362.1
+UMPDC.dll
+bcrypt.dll  	6.3.18362.267
+shlwapi.dll 	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1171
+IPHLPAPI.DLL	6.3.18362.1
+cryptsp.dll 	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+VERSION.dll 	6.3.18362.1
+winmmbase.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+ntmarta.dll 	6.3.18362.1
+gpapi.dll   	6.3.18362.1139
+TextInputFramework.dll	6.3.18362.1171
+CoreMessaging.dll	6.3.18362.1049
+CoreUIComponents.dll	6.3.18362.1110
+wintypes.dll	6.3.18362.1237
+iertutil.dll	11.0.18362.1198
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+OWExplorer.dll	2.2.82.5
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Wednesday, January 6, 2021 at 13:20:20.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=3826fe2b edx=01e00000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.1237
+libcurl.dll 	7.69.0.0
+exchndl.dll 	0.9.0.0
+discord-rpc.dll
+RPCRT4.dll  	6.3.18362.1237
+CRYPT32.dll 	6.3.18362.592
+PSAPI.DLL   	6.3.18362.1
+ucrtbase.dll	6.3.18362.1110
+SspiCli.dll 	6.3.18362.1049
+SHELL32.dll 	6.3.18362.1237
+CRYPTBASE.dll	6.3.18362.1
+MSASN1.dll  	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.1237
+wldap32.dll 	6.3.18362.449
+cfgmgr32.dll	6.3.18362.387
+WS2_32.dll  	6.3.18362.387
+USER32.dll  	6.3.18362.1256
+shcore.dll  	6.3.18362.1237
+win32u.dll  	6.3.18362.1237
+libgme.dll
+combase.dll 	6.3.18362.1237
+GDI32.dll   	6.3.18362.1256
+gdi32full.dll	6.3.18362.1256
+SDL2.dll    	2.0.9.0
+windows.storage.dll	6.3.18362.1171
+msvcp_win.dll	6.3.18362.1110
+IMM32.DLL   	6.3.18362.387
+SDL2_mixer.dll	2.0.4.0
+profapi.dll 	6.3.18362.693
+ole32.dll   	6.3.18362.1082
+powrprof.dll	6.3.18362.1
+mgwhelp.dll 	0.9.0.0
+OLEAUT32.dll	6.3.18362.1110
+UMPDC.dll
+shlwapi.dll 	6.3.18362.1
+SETUPAPI.dll	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+kernel.appcore.dll	6.3.18362.1171
+cryptsp.dll 	6.3.18362.1
+IPHLPAPI.DLL	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+VERSION.dll 	6.3.18362.1
+WINMMBASE.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.1171
+CoreMessaging.dll	6.3.18362.1049
+CoreUIComponents.dll	6.3.18362.1110
+ntmarta.dll 	6.3.18362.1
+wintypes.dll	6.3.18362.1237
+iertutil.dll	11.0.18362.1198
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+gpapi.dll   	6.3.18362.1139
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+OWExplorer.dll	2.2.82.5
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Tuesday, January 12, 2021 at 18:10:43.
+
+srb2kart-moe.exe caused an Access Violation at location 0056D410 in module srb2kart-moe.exe Reading from location 20448004.
+
+Registers:
+eax=0000000d ebx=158f9600 ecx=0000002a edx=00000034 esi=20447fd0 edi=17347435
+eip=0056d410 esp=01cef5bc ebp=00000500 iopl=0         nv up ei pl nz na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010202
+
+AddrPC   Params
+0056D410 00000917 00005D7E 00000217  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00520D3F 00000001 00000001 00001B88  srb2kart-moe.exe!R_StoreWallRange
+00514C86 00000215 00000217 00000000  srb2kart-moe.exe!R_PointToAngle2
+0050BF7C 15BDE778 000000BF 000000BF  srb2kart-moe.exe!R_AddLine
+0050D317 0000885D FA5B2BD5 15C8DD88  srb2kart-moe.exe!R_RenderBSPNode
+0050C646 0AB907F9 FA5B2BD5 02C00000  srb2kart-moe.exe!R_RenderBSPNode
+0050B997 FC86A2A0 09C40000 000784D4  srb2kart-moe.exe!R_AddLine
+0050A3AD 00000856 FA5B2BD5 15C8DDBC  srb2kart-moe.exe!SlopeDivEx
+0050C646 3C26A158 00000000 0007F907  srb2kart-moe.exe!R_RenderBSPNode
+0050A3AD 0784D42B 07F907F9 00000000  srb2kart-moe.exe!SlopeDivEx
+00514F0C 00000857 FA5B2BD5 15C8DDF0  srb2kart-moe.exe!R_PointToAngleEx
+0050C646 2BC83FC8 00000000 0007A4D4  srb2kart-moe.exe!R_RenderBSPNode
+0050A3AD 057907F9 07A4D42B 00000000  srb2kart-moe.exe!SlopeDivEx
+00514FA4 00000859 FA5B2BD5 15C8DF28  srb2kart-moe.exe!R_PointToAngleEx
+0050C646 0E37C038 00000000 0006A4D4  srb2kart-moe.exe!R_RenderBSPNode
+0050A3AD 01C6F807 06A4D42B 00000000  srb2kart-moe.exe!SlopeDivEx
+00514ED8 00000876 FA5B2BD5 15C8E43C  srb2kart-moe.exe!R_PointToAngleEx
+0050C646 C5C83FC8 00000000 001ADB2B  srb2kart-moe.exe!R_RenderBSPNode
+0050A3AD 18B907F9 1ADB2BD5 15C72C10  srb2kart-moe.exe!SlopeDivEx
+00514FE4 000008BD FA5B2BD5 15C8F2A8  srb2kart-moe.exe!R_PointToAngleEx
+0050C646 00000065 0000004C 004B8090  srb2kart-moe.exe!R_RenderBSPNode
+004BD3AF 0526A158 00000000 000DC6F8  srb2kart-moe.exe!P_CheckCameraPosition
+0050A3AD 00A4D42B 0DC6F807 15C72C10  srb2kart-moe.exe!SlopeDivEx
+00514F36 000008BE FA5B2BD5 15C90114  srb2kart-moe.exe!R_PointToAngleEx
+0050C646 15D013C8 00000000 00000007  srb2kart-moe.exe!R_RenderBSPNode
+004BA135 00000000 00000000 00000000  srb2kart-moe.exe!PIT_CheckThing
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.1237
+RPCRT4.dll  	6.3.18362.1237
+SspiCli.dll 	6.3.18362.1049
+CRYPTBASE.dll	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.1237
+USER32.dll  	6.3.18362.1256
+win32u.dll  	6.3.18362.1237
+GDI32.dll   	6.3.18362.1256
+gdi32full.dll	6.3.18362.1256
+msvcp_win.dll	6.3.18362.1110
+ucrtbase.dll	6.3.18362.1110
+WS2_32.dll  	6.3.18362.387
+libgme.dll
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.18362.592
+MSASN1.dll  	6.3.18362.1
+wldap32.dll 	6.3.18362.449
+SDL2_mixer.dll	2.0.4.0
+IPHLPAPI.DLL	6.3.18362.1
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.18362.387
+ole32.dll   	6.3.18362.1082
+combase.dll 	6.3.18362.1237
+WINMM.DLL   	6.3.18362.1
+OLEAUT32.dll	6.3.18362.1110
+SETUPAPI.dll	6.3.18362.1
+WINMMBASE.dll	6.3.18362.1
+cfgmgr32.dll	6.3.18362.387
+bcrypt.dll  	6.3.18362.267
+SHELL32.dll 	6.3.18362.1237
+shcore.dll  	6.3.18362.1237
+windows.storage.dll	6.3.18362.1171
+profapi.dll 	6.3.18362.693
+powrprof.dll	6.3.18362.1
+UMPDC.dll
+shlwapi.dll 	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1171
+cryptsp.dll 	6.3.18362.1
+VERSION.dll 	6.3.18362.1
+discord-rpc.dll
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.18362.1
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.18362.1139
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+ntmarta.dll 	6.3.18362.1
+gpapi.dll   	6.3.18362.1139
+TextInputFramework.dll	6.3.18362.1171
+CoreMessaging.dll	6.3.18362.1049
+CoreUIComponents.dll	6.3.18362.1110
+wintypes.dll	6.3.18362.1237
+iertutil.dll	11.0.18362.1198
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+DiscordHook.dll
+USERENV.dll 	6.3.18362.1139
+mswsock.dll 	6.3.18362.815
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Tuesday, January 12, 2021 at 20:01:36.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=eff84215 edx=025e0000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+libcurl.dll 	7.69.0.0
+sechost.dll 	6.3.18362.1237
+discord-rpc.dll
+CRYPT32.dll 	6.3.18362.592
+RPCRT4.dll  	6.3.18362.1237
+exchndl.dll 	0.9.0.0
+ucrtbase.dll	6.3.18362.1110
+PSAPI.DLL   	6.3.18362.1
+SspiCli.dll 	6.3.18362.1049
+MSASN1.dll  	6.3.18362.1
+CRYPTBASE.dll	6.3.18362.1
+SHELL32.dll 	6.3.18362.1237
+wldap32.dll 	6.3.18362.449
+bcryptPrimitives.dll	6.3.18362.1237
+cfgmgr32.dll	6.3.18362.387
+WS2_32.dll  	6.3.18362.387
+shcore.dll  	6.3.18362.1237
+USER32.dll  	6.3.18362.1256
+win32u.dll  	6.3.18362.1237
+combase.dll 	6.3.18362.1237
+libgme.dll
+GDI32.dll   	6.3.18362.1256
+windows.storage.dll	6.3.18362.1171
+gdi32full.dll	6.3.18362.1256
+SDL2.dll    	2.0.9.0
+msvcp_win.dll	6.3.18362.1110
+IMM32.DLL   	6.3.18362.387
+profapi.dll 	6.3.18362.693
+ole32.dll   	6.3.18362.1082
+SDL2_mixer.dll	2.0.4.0
+OLEAUT32.dll	6.3.18362.1110
+mgwhelp.dll 	0.9.0.0
+SETUPAPI.dll	6.3.18362.1
+powrprof.dll	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+UMPDC.dll
+shlwapi.dll 	6.3.18362.1
+IPHLPAPI.DLL	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1171
+cryptsp.dll 	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+VERSION.dll 	6.3.18362.1
+WINMMBASE.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.1171
+CoreUIComponents.dll	6.3.18362.1110
+CoreMessaging.dll	6.3.18362.1049
+ntmarta.dll 	6.3.18362.1
+wintypes.dll	6.3.18362.1237
+iertutil.dll	11.0.18362.1198
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+gpapi.dll   	6.3.18362.1139
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+DiscordHook.dll
+USERENV.dll 	6.3.18362.1139
+mswsock.dll 	6.3.18362.815
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Wednesday, January 13, 2021 at 01:13:12.
+
+srb2kart-moe.exe caused an Access Violation at location 0056D3BA in module srb2kart-moe.exe Reading from location 1F3F7041.
+
+Registers:
+eax=00030a19 ebx=15908600 ecx=0000001d edx=000003ff esi=1f3f6c42 edi=1735f9ba
+eip=0056d3ba esp=01cefbac ebp=000003ff iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+0056D3BA C6AF05C0 000003C5 00000000  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00523A11 1F3F6BAB 000003FF 4608613A  srb2kart-moe.exe!R_DrawMaskedColumn
+0051BF7E 00000000 00000000 00000000  srb2kart-moe.exe!R_RenderMaskedSegRange
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.1237
+RPCRT4.dll  	6.3.18362.1237
+libcurl.dll 	7.69.0.0
+exchndl.dll 	0.9.0.0
+CRYPT32.dll 	6.3.18362.592
+SspiCli.dll 	6.3.18362.1049
+discord-rpc.dll
+CRYPTBASE.dll	6.3.18362.1
+PSAPI.DLL   	6.3.18362.1
+ucrtbase.dll	6.3.18362.1110
+bcryptPrimitives.dll	6.3.18362.1237
+SHELL32.dll 	6.3.18362.1237
+MSASN1.dll  	6.3.18362.1
+cfgmgr32.dll	6.3.18362.387
+USER32.dll  	6.3.18362.1256
+wldap32.dll 	6.3.18362.449
+shcore.dll  	6.3.18362.1237
+win32u.dll  	6.3.18362.1237
+WS2_32.dll  	6.3.18362.387
+GDI32.dll   	6.3.18362.1256
+combase.dll 	6.3.18362.1237
+gdi32full.dll	6.3.18362.1256
+windows.storage.dll	6.3.18362.1171
+msvcp_win.dll	6.3.18362.1110
+libgme.dll
+profapi.dll 	6.3.18362.693
+SDL2.dll    	2.0.9.0
+powrprof.dll	6.3.18362.1
+IMM32.DLL   	6.3.18362.387
+SDL2_mixer.dll	2.0.4.0
+UMPDC.dll
+ole32.dll   	6.3.18362.1082
+mgwhelp.dll 	0.9.0.0
+shlwapi.dll 	6.3.18362.1
+OLEAUT32.dll	6.3.18362.1110
+kernel.appcore.dll	6.3.18362.1171
+SETUPAPI.dll	6.3.18362.1
+cryptsp.dll 	6.3.18362.1
+IPHLPAPI.DLL	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+VERSION.dll 	6.3.18362.1
+winmmbase.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.1171
+CoreMessaging.dll	6.3.18362.1049
+CoreUIComponents.dll	6.3.18362.1110
+wintypes.dll	6.3.18362.1237
+ntmarta.dll 	6.3.18362.1
+iertutil.dll	11.0.18362.1198
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+gpapi.dll   	6.3.18362.1139
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+DiscordHook.dll
+USERENV.dll 	6.3.18362.1139
+mswsock.dll 	6.3.18362.815
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, January 14, 2021 at 00:35:51.
+
+srb2kart-moe.exe caused an Access Violation at location 0056D3BA in module srb2kart-moe.exe Reading from location 53ABF135.
+
+Registers:
+eax=0002efa0 ebx=15b21400 ecx=0000004f edx=000003ff esi=53abed36 edi=1735ca31
+eip=0056d3ba esp=01cefbac ebp=000003ff iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+0056D3BA CED9C409 00000317 00000000  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00523A11 53ABEBAB 000003FF 464F5A49  srb2kart-moe.exe!R_DrawMaskedColumn
+0051BF7E 00000000 00000000 00000000  srb2kart-moe.exe!R_RenderMaskedSegRange
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.1237
+RPCRT4.dll  	6.3.18362.1237
+SspiCli.dll 	6.3.18362.1049
+CRYPTBASE.dll	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.1237
+USER32.dll  	6.3.18362.1256
+win32u.dll  	6.3.18362.1237
+GDI32.dll   	6.3.18362.1256
+gdi32full.dll	6.3.18362.1256
+msvcp_win.dll	6.3.18362.1110
+ucrtbase.dll	6.3.18362.1110
+WS2_32.dll  	6.3.18362.387
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.18362.592
+MSASN1.dll  	6.3.18362.1
+wldap32.dll 	6.3.18362.449
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.18362.1
+SHELL32.dll 	6.3.18362.1237
+cfgmgr32.dll	6.3.18362.387
+shcore.dll  	6.3.18362.1237
+combase.dll 	6.3.18362.1237
+windows.storage.dll	6.3.18362.1171
+profapi.dll 	6.3.18362.693
+powrprof.dll	6.3.18362.1
+UMPDC.dll
+shlwapi.dll 	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1171
+cryptsp.dll 	6.3.18362.1
+discord-rpc.dll
+IPHLPAPI.DLL	6.3.18362.1
+libgme.dll
+VERSION.dll 	6.3.18362.1
+SDL2_mixer.dll	2.0.4.0
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.18362.387
+ole32.dll   	6.3.18362.1082
+WINMM.DLL   	6.3.18362.1
+OLEAUT32.dll	6.3.18362.1110
+SETUPAPI.dll	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+winmmbase.dll	6.3.18362.1
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.18362.1139
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.1171
+CoreUIComponents.dll	6.3.18362.1110
+CoreMessaging.dll	6.3.18362.1049
+ntmarta.dll 	6.3.18362.1
+wintypes.dll	6.3.18362.1237
+iertutil.dll	11.0.18362.1198
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+gpapi.dll   	6.3.18362.1139
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+DiscordHook.dll
+USERENV.dll 	6.3.18362.1139
+mswsock.dll 	6.3.18362.815
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Wednesday, January 20, 2021 at 20:25:33.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=5ec1ec02 edx=024c0000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.1237
+libcurl.dll 	7.69.0.0
+RPCRT4.dll  	6.3.18362.1237
+discord-rpc.dll
+CRYPT32.dll 	6.3.18362.592
+exchndl.dll 	0.9.0.0
+SspiCli.dll 	6.3.18362.1049
+PSAPI.DLL   	6.3.18362.1
+ucrtbase.dll	6.3.18362.1110
+CRYPTBASE.dll	6.3.18362.1
+SHELL32.dll 	6.3.18362.1237
+MSASN1.dll  	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.1237
+cfgmgr32.dll	6.3.18362.387
+wldap32.dll 	6.3.18362.449
+USER32.dll  	6.3.18362.1256
+WS2_32.dll  	6.3.18362.387
+shcore.dll  	6.3.18362.1237
+win32u.dll  	6.3.18362.1237
+GDI32.dll   	6.3.18362.1256
+combase.dll 	6.3.18362.1237
+gdi32full.dll	6.3.18362.1256
+windows.storage.dll	6.3.18362.1171
+msvcp_win.dll	6.3.18362.1110
+profapi.dll 	6.3.18362.693
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.18362.387
+libgme.dll
+powrprof.dll	6.3.18362.1
+SDL2_mixer.dll	2.0.4.0
+ole32.dll   	6.3.18362.1082
+UMPDC.dll
+mgwhelp.dll 	0.9.0.0
+shlwapi.dll 	6.3.18362.1
+OLEAUT32.dll	6.3.18362.1110
+kernel.appcore.dll	6.3.18362.1171
+SETUPAPI.dll	6.3.18362.1
+cryptsp.dll 	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+IPHLPAPI.DLL	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+VERSION.dll 	6.3.18362.1
+WINMMBASE.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.1171
+CoreMessaging.dll	6.3.18362.1049
+CoreUIComponents.dll	6.3.18362.1110
+ntmarta.dll 	6.3.18362.1
+wintypes.dll	6.3.18362.1237
+iertutil.dll	11.0.18362.1198
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+gpapi.dll   	6.3.18362.1139
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Wednesday, January 20, 2021 at 22:49:37.
+
+srb2kart-moe.exe caused an Access Violation at location 0056D400 in module srb2kart-moe.exe Reading from location 6391B041.
+
+Registers:
+eax=000003ff ebx=15933300 ecx=00000028 edx=000000da esi=6391ac42 edi=173b11ef
+eip=0056d400 esp=01cefbac ebp=00000500 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+0056D400 C7499C6C 000003EF 00000000  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00523A11 6391ABAB 000003FF 45739364  srb2kart-moe.exe!R_DrawMaskedColumn
+0051BF7E 00000000 00000000 00000000  srb2kart-moe.exe!R_RenderMaskedSegRange
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+exchndl.dll 	0.9.0.0
+libcurl.dll 	7.69.0.0
+sechost.dll 	6.3.18362.1237
+PSAPI.DLL   	6.3.18362.1
+CRYPT32.dll 	6.3.18362.592
+discord-rpc.dll
+RPCRT4.dll  	6.3.18362.1237
+ucrtbase.dll	6.3.18362.1110
+SHELL32.dll 	6.3.18362.1237
+SspiCli.dll 	6.3.18362.1049
+MSASN1.dll  	6.3.18362.1
+cfgmgr32.dll	6.3.18362.387
+CRYPTBASE.dll	6.3.18362.1
+wldap32.dll 	6.3.18362.449
+bcryptPrimitives.dll	6.3.18362.1237
+shcore.dll  	6.3.18362.1237
+WS2_32.dll  	6.3.18362.387
+combase.dll 	6.3.18362.1237
+USER32.dll  	6.3.18362.1256
+libgme.dll
+win32u.dll  	6.3.18362.1237
+windows.storage.dll	6.3.18362.1171
+SDL2.dll    	2.0.9.0
+GDI32.dll   	6.3.18362.1256
+IMM32.DLL   	6.3.18362.387
+msvcp_win.dll	6.3.18362.1110
+gdi32full.dll	6.3.18362.1256
+SDL2_mixer.dll	2.0.4.0
+ole32.dll   	6.3.18362.1082
+profapi.dll 	6.3.18362.693
+OLEAUT32.dll	6.3.18362.1110
+mgwhelp.dll 	0.9.0.0
+powrprof.dll	6.3.18362.1
+SETUPAPI.dll	6.3.18362.1
+UMPDC.dll
+bcrypt.dll  	6.3.18362.267
+shlwapi.dll 	6.3.18362.1
+IPHLPAPI.DLL	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1171
+cryptsp.dll 	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+VERSION.dll 	6.3.18362.1
+WINMMBASE.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+ntmarta.dll 	6.3.18362.1
+gpapi.dll   	6.3.18362.1139
+TextInputFramework.dll	6.3.18362.1171
+CoreUIComponents.dll	6.3.18362.1110
+CoreMessaging.dll	6.3.18362.1049
+wintypes.dll	6.3.18362.1237
+iertutil.dll	11.0.18362.1198
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+DiscordHook.dll
+USERENV.dll 	6.3.18362.1139
+mswsock.dll 	6.3.18362.815
+DNSAPI.dll  	6.3.18362.1171
+NSI.dll     	6.3.18362.1171
+mdnsNSP.dll 	3.1.0.1
+rasadhlp.dll	6.3.18362.1
+fwpuclnt.dll	6.3.18362.113
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, January 21, 2021 at 15:07:49.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=e6a1000a edx=02530000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+libcurl.dll 	7.69.0.0
+discord-rpc.dll
+sechost.dll 	6.3.18362.1237
+CRYPT32.dll 	6.3.18362.592
+exchndl.dll 	0.9.0.0
+ucrtbase.dll	6.3.18362.1110
+RPCRT4.dll  	6.3.18362.1237
+PSAPI.DLL   	6.3.18362.1
+MSASN1.dll  	6.3.18362.1
+SHELL32.dll 	6.3.18362.1237
+SspiCli.dll 	6.3.18362.1049
+wldap32.dll 	6.3.18362.449
+CRYPTBASE.dll	6.3.18362.1
+cfgmgr32.dll	6.3.18362.387
+WS2_32.dll  	6.3.18362.387
+bcryptPrimitives.dll	6.3.18362.1237
+shcore.dll  	6.3.18362.1237
+combase.dll 	6.3.18362.1237
+libgme.dll
+USER32.dll  	6.3.18362.1256
+win32u.dll  	6.3.18362.1237
+windows.storage.dll	6.3.18362.1171
+SDL2.dll    	2.0.9.0
+GDI32.dll   	6.3.18362.1256
+msvcp_win.dll	6.3.18362.1110
+SDL2_mixer.dll	2.0.4.0
+gdi32full.dll	6.3.18362.1256
+IMM32.DLL   	6.3.18362.387
+profapi.dll 	6.3.18362.693
+ole32.dll   	6.3.18362.1082
+powrprof.dll	6.3.18362.1
+mgwhelp.dll 	0.9.0.0
+UMPDC.dll
+OLEAUT32.dll	6.3.18362.1110
+shlwapi.dll 	6.3.18362.1
+SETUPAPI.dll	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1171
+bcrypt.dll  	6.3.18362.267
+cryptsp.dll 	6.3.18362.1
+IPHLPAPI.DLL	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+VERSION.dll 	6.3.18362.1
+winmmbase.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+ntmarta.dll 	6.3.18362.1
+gpapi.dll   	6.3.18362.1139
+TextInputFramework.dll	6.3.18362.1171
+CoreUIComponents.dll	6.3.18362.1110
+CoreMessaging.dll	6.3.18362.1049
+wintypes.dll	6.3.18362.1237
+iertutil.dll	11.0.18362.1198
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, January 21, 2021 at 15:08:25.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=51011ecf edx=02580000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+sechost.dll 	6.3.18362.1237
+libcurl.dll 	7.69.0.0
+discord-rpc.dll
+exchndl.dll 	0.9.0.0
+RPCRT4.dll  	6.3.18362.1237
+CRYPT32.dll 	6.3.18362.592
+PSAPI.DLL   	6.3.18362.1
+SspiCli.dll 	6.3.18362.1049
+SHELL32.dll 	6.3.18362.1237
+ucrtbase.dll	6.3.18362.1110
+CRYPTBASE.dll	6.3.18362.1
+bcryptPrimitives.dll	6.3.18362.1237
+cfgmgr32.dll	6.3.18362.387
+MSASN1.dll  	6.3.18362.1
+wldap32.dll 	6.3.18362.449
+USER32.dll  	6.3.18362.1256
+shcore.dll  	6.3.18362.1237
+WS2_32.dll  	6.3.18362.387
+win32u.dll  	6.3.18362.1237
+combase.dll 	6.3.18362.1237
+GDI32.dll   	6.3.18362.1256
+libgme.dll
+gdi32full.dll	6.3.18362.1256
+windows.storage.dll	6.3.18362.1171
+msvcp_win.dll	6.3.18362.1110
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.18362.387
+profapi.dll 	6.3.18362.693
+mgwhelp.dll 	0.9.0.0
+ole32.dll   	6.3.18362.1082
+powrprof.dll	6.3.18362.1
+OLEAUT32.dll	6.3.18362.1110
+UMPDC.dll
+shlwapi.dll 	6.3.18362.1
+SETUPAPI.dll	6.3.18362.1
+bcrypt.dll  	6.3.18362.267
+kernel.appcore.dll	6.3.18362.1171
+IPHLPAPI.DLL	6.3.18362.1
+cryptsp.dll 	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+VERSION.dll 	6.3.18362.1
+WINMMBASE.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+ntmarta.dll 	6.3.18362.1
+gpapi.dll   	6.3.18362.1139
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+CoreMessaging.dll	6.3.18362.1049
+CoreUIComponents.dll	6.3.18362.1110
+wintypes.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+TextInputFramework.dll	6.3.18362.1171
+iertutil.dll	11.0.18362.1198
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Friday, January 22, 2021 at 23:26:46.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=596a580b edx=025f0000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.18362.1171
+KERNEL32.DLL	6.3.18362.1110
+KERNELBASE.dll	6.3.18362.1237
+ADVAPI32.dll	6.3.18362.752
+msvcrt.dll  	7.0.18362.1
+libcurl.dll 	7.69.0.0
+sechost.dll 	6.3.18362.1237
+discord-rpc.dll
+exchndl.dll 	0.9.0.0
+CRYPT32.dll 	6.3.18362.592
+RPCRT4.dll  	6.3.18362.1237
+PSAPI.DLL   	6.3.18362.1
+ucrtbase.dll	6.3.18362.1110
+SHELL32.dll 	6.3.18362.1237
+SspiCli.dll 	6.3.18362.1049
+MSASN1.dll  	6.3.18362.1
+cfgmgr32.dll	6.3.18362.387
+wldap32.dll 	6.3.18362.449
+shcore.dll  	6.3.18362.1237
+WS2_32.dll  	6.3.18362.387
+CRYPTBASE.dll	6.3.18362.1
+combase.dll 	6.3.18362.1237
+bcryptPrimitives.dll	6.3.18362.1237
+libgme.dll
+USER32.dll  	6.3.18362.1256
+SDL2.dll    	2.0.9.0
+windows.storage.dll	6.3.18362.1171
+SDL2_mixer.dll	2.0.4.0
+win32u.dll  	6.3.18362.1237
+GDI32.dll   	6.3.18362.1256
+msvcp_win.dll	6.3.18362.1110
+gdi32full.dll	6.3.18362.1256
+profapi.dll 	6.3.18362.693
+IMM32.DLL   	6.3.18362.387
+mgwhelp.dll 	0.9.0.0
+ole32.dll   	6.3.18362.1082
+powrprof.dll	6.3.18362.1
+UMPDC.dll
+OLEAUT32.dll	6.3.18362.1110
+shlwapi.dll 	6.3.18362.1
+SETUPAPI.dll	6.3.18362.1
+kernel.appcore.dll	6.3.18362.1171
+bcrypt.dll  	6.3.18362.267
+cryptsp.dll 	6.3.18362.1
+IPHLPAPI.DLL	6.3.18362.1
+WINMM.DLL   	6.3.18362.1
+dbghelp.dll 	6.3.18362.1139
+VERSION.dll 	6.3.18362.1
+winmmbase.dll	6.3.18362.1
+dbgcore.DLL 	6.3.18362.1
+uxtheme.dll 	6.3.18362.449
+MSCTF.dll   	6.3.18362.1198
+clbcatq.dll 	2001.12.10941.16384
+TextInputFramework.dll	6.3.18362.1171
+CoreUIComponents.dll	6.3.18362.1110
+CoreMessaging.dll	6.3.18362.1049
+ntmarta.dll 	6.3.18362.1
+wintypes.dll	6.3.18362.1237
+iertutil.dll	11.0.18362.1198
+D3D9.DLL    	6.3.18362.1110
+dwmapi.dll  	6.3.18362.267
+dxcore.dll  	6.3.18362.1
+nvldumd.dll 	26.21.14.4614
+cryptnet.dll	6.3.18362.1
+WINTRUST.DLL	6.3.18362.1237
+imagehlp.dll	6.3.18362.1
+rsaenh.dll  	6.3.18362.1
+nvd3dum.dll 	26.21.14.4614
+nvspcap.dll 	3.20.5.70
+gpapi.dll   	6.3.18362.1139
+dinput8.dll 	6.3.18362.1
+HID.DLL     	6.3.18362.1
+inputhost.dll	6.3.18362.1237
+PROPSYS.dll 	7.0.18362.815
+DEVOBJ.dll  	6.3.18362.387
+XInput1_4.dll	6.3.18362.329
+deviceaccess.dll	6.3.18362.836
+DSOUND.DLL  	6.3.18362.1
+MMDevAPI.DLL	6.3.18362.387
+wdmaud.drv  	6.3.18362.1
+AVRT.dll    	6.3.18362.1
+ksuser.dll  	6.3.18362.1
+AUDIOSES.DLL	6.3.18362.1256
+msacm32.drv 	6.3.18362.1
+MSACM32.dll 	6.3.18362.1
+midimap.dll 	6.3.18362.1
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.18362.959
+Windows.UI.dll	6.3.18362.1171
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Friday, February 12, 2021 at 23:58:08.
+
+srb2kart-moe.exe caused an Access Violation at location 004D3FA3 in module srb2kart-moe.exe Reading from location CBC9CB4B.
+
+Registers:
+eax=cbc9cacb ebx=00000010 ecx=188f44b0 edx=cbc9cacb esi=15da82f8 edi=00000000
+eip=004d3fa3 esp=01cef840 ebp=15da8410 iopl=0         nv up ei ng nz na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010282
+
+AddrPC   Params
+004D3FA3 00000000 00000000 00000000  srb2kart-moe.exe!P_MobjThinker.part.0
+00463187 0191AD80 15D781A0 15D91A58  srb2kart-moe.exe!K_KartPlayerHUDUpdate
+00463FA3 00000000 00000000 00000000  srb2kart-moe.exe!K_KartPlayerThink
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.789
+KERNEL32.DLL	6.3.19041.789
+KERNELBASE.dll	6.3.19041.789
+ADVAPI32.dll	6.3.19041.610
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.789
+RPCRT4.dll  	6.3.19041.746
+USER32.dll  	6.3.19041.746
+win32u.dll  	6.3.19041.789
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+SHELL32.dll 	6.3.19041.789
+discord-rpc.dll
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.746
+wldap32.dll 	6.3.19041.546
+IPHLPAPI.DLL	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+libgme.dll
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.789
+OLEAUT32.dll	6.3.19041.546
+SETUPAPI.dll	6.3.19041.546
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.19041.662
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.746
+MSCTF.dll   	6.3.19041.789
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.662
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.19041.789
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.746
+ntmarta.dll 	6.3.19041.546
+wintypes.dll	6.3.19041.746
+D3D9.DLL    	6.3.19041.662
+windows.storage.dll	6.3.19041.789
+dwmapi.dll  	6.3.19041.746
+Wldp.dll    	6.3.19041.662
+nvldumd.dll 	27.21.14.5671
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.546
+cryptbase.dll	6.3.19041.546
+WINTRUST.DLL	6.3.19041.662
+imagehlp.dll	6.3.19041.546
+CRYPTSP.dll 	6.3.19041.546
+rsaenh.dll  	6.3.19041.546
+nvd3dum.dll 	27.21.14.5671
+shlwapi.dll 	6.3.19041.746
+nvspcap.dll 	3.20.5.70
+profapi.dll 	6.3.19041.546
+gpapi.dll   	6.3.19041.572
+dxcore.dll  	6.3.19041.546
+dinput8.dll 	6.3.19041.1
+HID.DLL     	6.3.19041.546
+inputhost.dll	6.3.19041.746
+PROPSYS.dll 	7.0.19041.746
+DEVOBJ.dll  	6.3.19041.546
+XInput1_4.dll	6.3.19041.1
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+MMDevAPI.DLL	6.3.19041.789
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.789
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+OWExplorer.dll	2.2.83.1
+mswsock.dll 	6.3.19041.546
+DNSAPI.dll  	6.3.19041.746
+NSI.dll     	6.3.19041.610
+rasadhlp.dll	6.3.19041.546
+fwpuclnt.dll	6.3.19041.546
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Tuesday, February 23, 2021 at 22:42:19.
+
+srb2kart-moe.exe caused an Access Violation at location 00542075 in module srb2kart-moe.exe Reading from location 0DCD0000.
+
+Registers:
+eax=0dccffb0 ebx=00000056 ecx=0000002b edx=00804b40 esi=0dcd0000 edi=00804b90
+eip=00542075 esp=01cefbe0 ebp=00000000 iopl=0         nv up ei pl nz na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010202
+
+AddrPC   Params
+00542075 00000000 00000000 00000000  srb2kart-moe.exe!I_ClipboardPaste
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.804
+KERNEL32.DLL	6.3.19041.804
+KERNELBASE.dll	6.3.19041.804
+ADVAPI32.dll	6.3.19041.610
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.789
+RPCRT4.dll  	6.3.19041.746
+USER32.dll  	6.3.19041.746
+win32u.dll  	6.3.19041.804
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+discord-rpc.dll
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.789
+OLEAUT32.dll	6.3.19041.804
+SETUPAPI.dll	6.3.19041.546
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.546
+SHELL32.dll 	6.3.19041.789
+IPHLPAPI.DLL	6.3.19041.546
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.804
+wldap32.dll 	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.19041.804
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.746
+MSCTF.dll   	6.3.19041.789
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.662
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.19041.789
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.746
+ntmarta.dll 	6.3.19041.546
+wintypes.dll	6.3.19041.746
+D3D9.DLL    	6.3.19041.662
+dwmapi.dll  	6.3.19041.746
+windows.storage.dll	6.3.19041.789
+Wldp.dll    	6.3.19041.662
+nvldumd.dll 	27.21.14.5671
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.546
+cryptbase.dll	6.3.19041.546
+WINTRUST.DLL	6.3.19041.804
+imagehlp.dll	6.3.19041.546
+CRYPTSP.dll 	6.3.19041.546
+rsaenh.dll  	6.3.19041.546
+nvd3dum.dll 	27.21.14.5671
+shlwapi.dll 	6.3.19041.746
+nvspcap.dll 	3.20.5.70
+profapi.dll 	6.3.19041.546
+gpapi.dll   	6.3.19041.572
+dxcore.dll  	6.3.19041.546
+dinput8.dll 	6.3.19041.1
+HID.DLL     	6.3.19041.546
+inputhost.dll	6.3.19041.746
+PROPSYS.dll 	7.0.19041.746
+DEVOBJ.dll  	6.3.19041.546
+XInput1_4.dll	6.3.19041.1
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+powrprof.dll	6.3.19041.546
+winmmbase.dll	6.3.19041.1
+UMPDC.dll
+MMDevAPI.DLL	6.3.19041.789
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.789
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+DiscordHook.dll
+USERENV.dll 	6.3.19041.572
+mswsock.dll 	6.3.19041.546
+DNSAPI.dll  	6.3.19041.746
+NSI.dll     	6.3.19041.610
+rasadhlp.dll	6.3.19041.546
+fwpuclnt.dll	6.3.19041.546
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, February 25, 2021 at 22:55:24.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=3e5c5346 edx=026f0000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.804
+KERNEL32.DLL	6.3.19041.804
+KERNELBASE.dll	6.3.19041.804
+ADVAPI32.dll	6.3.19041.610
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.789
+RPCRT4.dll  	6.3.19041.746
+USER32.dll  	6.3.19041.746
+win32u.dll  	6.3.19041.804
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.804
+wldap32.dll 	6.3.19041.546
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+SHELL32.dll 	6.3.19041.789
+libgme.dll
+SDL2.dll    	2.0.9.0
+discord-rpc.dll
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.789
+OLEAUT32.dll	6.3.19041.804
+SETUPAPI.dll	6.3.19041.546
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.546
+IPHLPAPI.DLL	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.804
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.746
+MSCTF.dll   	6.3.19041.789
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.662
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.19041.789
+CoreMessaging.dll	6.3.19041.746
+CoreUIComponents.dll	6.3.19041.546
+ntmarta.dll 	6.3.19041.546
+wintypes.dll	6.3.19041.746
+D3D9.DLL    	6.3.19041.662
+windows.storage.dll	6.3.19041.789
+dwmapi.dll  	6.3.19041.746
+Wldp.dll    	6.3.19041.662
+nvldumd.dll 	27.21.14.5671
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.546
+cryptbase.dll	6.3.19041.546
+WINTRUST.DLL	6.3.19041.804
+imagehlp.dll	6.3.19041.546
+CRYPTSP.dll 	6.3.19041.546
+rsaenh.dll  	6.3.19041.546
+nvd3dum.dll 	27.21.14.5671
+shlwapi.dll 	6.3.19041.746
+nvspcap.dll 	3.20.5.70
+profapi.dll 	6.3.19041.546
+gpapi.dll   	6.3.19041.572
+dxcore.dll  	6.3.19041.546
+dinput8.dll 	6.3.19041.1
+HID.DLL     	6.3.19041.546
+inputhost.dll	6.3.19041.746
+PROPSYS.dll 	7.0.19041.746
+DEVOBJ.dll  	6.3.19041.546
+XInput1_4.dll	6.3.19041.1
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+powrprof.dll	6.3.19041.546
+winmmbase.dll	6.3.19041.1
+UMPDC.dll
+MMDevAPI.DLL	6.3.19041.789
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.789
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+OWExplorer.dll	2.2.84.12
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Friday, March 5, 2021 at 17:58:34.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=46830031 edx=02780000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.804
+KERNEL32.DLL	6.3.19041.804
+KERNELBASE.dll	6.3.19041.804
+ADVAPI32.dll	6.3.19041.610
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.789
+RPCRT4.dll  	6.3.19041.746
+USER32.dll  	6.3.19041.746
+win32u.dll  	6.3.19041.804
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.804
+wldap32.dll 	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.789
+OLEAUT32.dll	6.3.19041.804
+SETUPAPI.dll	6.3.19041.546
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.546
+SHELL32.dll 	6.3.19041.789
+discord-rpc.dll
+IPHLPAPI.DLL	6.3.19041.546
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+libgme.dll
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.19041.804
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.746
+MSCTF.dll   	6.3.19041.789
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.662
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.19041.789
+CoreMessaging.dll	6.3.19041.746
+CoreUIComponents.dll	6.3.19041.546
+ntmarta.dll 	6.3.19041.546
+wintypes.dll	6.3.19041.746
+D3D9.DLL    	6.3.19041.662
+windows.storage.dll	6.3.19041.789
+dwmapi.dll  	6.3.19041.746
+Wldp.dll    	6.3.19041.662
+nvldumd.dll 	27.21.14.5671
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.546
+cryptbase.dll	6.3.19041.546
+WINTRUST.DLL	6.3.19041.804
+imagehlp.dll	6.3.19041.546
+CRYPTSP.dll 	6.3.19041.546
+rsaenh.dll  	6.3.19041.546
+nvd3dum.dll 	27.21.14.5671
+shlwapi.dll 	6.3.19041.746
+nvspcap.dll 	3.20.5.70
+profapi.dll 	6.3.19041.546
+gpapi.dll   	6.3.19041.572
+dxcore.dll  	6.3.19041.546
+dinput8.dll 	6.3.19041.1
+HID.DLL     	6.3.19041.546
+inputhost.dll	6.3.19041.746
+PROPSYS.dll 	7.0.19041.746
+DEVOBJ.dll  	6.3.19041.546
+XInput1_4.dll	6.3.19041.1
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+MMDevAPI.DLL	6.3.19041.789
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.789
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+OWExplorer.dll	2.2.84.12
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Friday, March 12, 2021 at 00:46:09.
+
+srb2kart-moe.exe caused an Access Violation at location 00510DDB in module srb2kart-moe.exe Reading from location 00000214.
+
+Registers:
+eax=0000020c ebx=00000000 ecx=00000000 edx=000000ff esi=00000002 edi=000000ff
+eip=00510ddb esp=01cefcd0 ebp=000000ff iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+00510DDB 00801A30 01A53C83 00000008  srb2kart-moe.exe!R_GetTranslationColormap
+005333AF 000000FF 00000002 00000001  srb2kart-moe.exe!W_CheckNumForName.part.0
+00481116 00000000 00000000 00000000  srb2kart-moe.exe!DrawReplayHutReplayInfo
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.804
+KERNEL32.DLL	6.3.19041.804
+KERNELBASE.dll	6.3.19041.804
+ADVAPI32.dll	6.3.19041.610
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.789
+RPCRT4.dll  	6.3.19041.746
+USER32.dll  	6.3.19041.746
+win32u.dll  	6.3.19041.804
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+SHELL32.dll 	6.3.19041.789
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.804
+wldap32.dll 	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.789
+OLEAUT32.dll	6.3.19041.804
+SETUPAPI.dll	6.3.19041.546
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.546
+IPHLPAPI.DLL	6.3.19041.546
+discord-rpc.dll
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+libgme.dll
+SDL2_mixer.dll	2.0.4.0
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.19041.804
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.746
+MSCTF.dll   	6.3.19041.789
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.662
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.19041.789
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.746
+ntmarta.dll 	6.3.19041.546
+wintypes.dll	6.3.19041.746
+D3D9.DLL    	6.3.19041.662
+dwmapi.dll  	6.3.19041.746
+windows.storage.dll	6.3.19041.789
+Wldp.dll    	6.3.19041.662
+nvldumd.dll 	27.21.14.5671
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.546
+cryptbase.dll	6.3.19041.546
+WINTRUST.DLL	6.3.19041.804
+imagehlp.dll	6.3.19041.546
+CRYPTSP.dll 	6.3.19041.546
+rsaenh.dll  	6.3.19041.546
+nvd3dum.dll 	27.21.14.5671
+shlwapi.dll 	6.3.19041.746
+nvspcap.dll 	3.20.5.70
+profapi.dll 	6.3.19041.546
+gpapi.dll   	6.3.19041.572
+dxcore.dll  	6.3.19041.546
+dinput8.dll 	6.3.19041.1
+HID.DLL     	6.3.19041.546
+inputhost.dll	6.3.19041.746
+PROPSYS.dll 	7.0.19041.746
+DEVOBJ.dll  	6.3.19041.546
+XInput1_4.dll	6.3.19041.1
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+powrprof.dll	6.3.19041.546
+winmmbase.dll	6.3.19041.1
+UMPDC.dll
+MMDevAPI.DLL	6.3.19041.789
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.789
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Wednesday, April 7, 2021 at 22:29:25.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=a31cb3b3 edx=026a0000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.844
+KERNEL32.DLL	6.3.19041.804
+KERNELBASE.dll	6.3.19041.804
+ADVAPI32.dll	6.3.19041.610
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.789
+RPCRT4.dll  	6.3.19041.746
+exchndl.dll 	0.9.0.0
+libcurl.dll 	7.69.0.0
+discord-rpc.dll
+USER32.dll  	6.3.19041.746
+PSAPI.DLL   	6.3.19041.546
+CRYPT32.dll 	6.3.19041.844
+win32u.dll  	6.3.19041.867
+SHELL32.dll 	6.3.19041.844
+ucrtbase.dll	6.3.19041.789
+GDI32.dll   	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+gdi32full.dll	6.3.19041.746
+wldap32.dll 	6.3.19041.546
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.844
+mgwhelp.dll 	0.9.0.0
+IPHLPAPI.DLL	6.3.19041.546
+OLEAUT32.dll	6.3.19041.804
+VERSION.dll 	6.3.19041.546
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.867
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.746
+MSCTF.dll   	6.3.19041.844
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.662
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.19041.844
+CoreUIComponents.dll	6.3.19041.546
+ntmarta.dll 	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.844
+D3D9.DLL    	6.3.19041.662
+dwmapi.dll  	6.3.19041.746
+windows.storage.dll	6.3.19041.844
+Wldp.dll    	6.3.19041.662
+nvldumd.dll 	27.21.14.5671
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.546
+cryptbase.dll	6.3.19041.546
+WINTRUST.DLL	6.3.19041.804
+imagehlp.dll	6.3.19041.546
+CRYPTSP.dll 	6.3.19041.546
+rsaenh.dll  	6.3.19041.546
+nvd3dum.dll 	27.21.14.5671
+shlwapi.dll 	6.3.19041.746
+nvspcap.dll 	3.21.0.36
+profapi.dll 	6.3.19041.844
+gpapi.dll   	6.3.19041.572
+dxcore.dll  	6.3.19041.546
+dinput8.dll 	6.3.19041.1
+HID.DLL     	6.3.19041.546
+inputhost.dll	6.3.19041.746
+PROPSYS.dll 	7.0.19041.746
+DEVOBJ.dll  	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+powrprof.dll	6.3.19041.546
+winmmbase.dll	6.3.19041.1
+UMPDC.dll
+MMDevAPI.DLL	6.3.19041.789
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.789
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Wednesday, June 2, 2021 at 17:08:56.
+
+srb2kart-moe.exe caused an Access Violation at location 0056DB40 in module srb2kart-moe.exe Reading from location 4ED41003.
+
+Registers:
+eax=0000003f ebx=1598e800 ecx=00000002 edx=00000049 esi=4ed40fc4 edi=1755fffa
+eip=0056db40 esp=01cefbac ebp=00000500 iopl=0         nv up ei pl zr na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010246
+
+AddrPC   Params
+0056DB40 F414D860 000004FF 5461C35D  srb2kart-moe.exe!R_DrawColumn_8_MMX
+00524151 4ED40FC1 00000036 7FFEF000  srb2kart-moe.exe!R_DrawMaskedColumn
+0051C31F 01CEFCB0 01CEFCB4 005E556D  srb2kart-moe.exe!R_RenderMaskedSegRange
+7753BE3F 18367E58 4F8DD4A8 007F8A98  ntdll.dll!RtlWow64GetProcessMachines
+00522BAE 00000000 00000000 00000000  srb2kart-moe.exe!R_SortVisSprites.part.0
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.964
+KERNEL32.DLL	6.3.19041.928
+KERNELBASE.dll	6.3.19041.964
+ADVAPI32.dll	6.3.19041.610
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.928
+libcurl.dll 	7.69.0.0
+exchndl.dll 	0.9.0.0
+discord-rpc.dll
+USER32.dll  	6.3.19041.906
+PSAPI.DLL   	6.3.19041.546
+CRYPT32.dll 	6.3.19041.844
+win32u.dll  	6.3.19041.985
+SHELL32.dll 	6.3.19041.964
+ucrtbase.dll	6.3.19041.789
+GDI32.dll   	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+gdi32full.dll	6.3.19041.928
+wldap32.dll 	6.3.19041.546
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+mgwhelp.dll 	0.9.0.0
+combase.dll 	6.3.19041.928
+IPHLPAPI.DLL	6.3.19041.546
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+VERSION.dll 	6.3.19041.546
+bcrypt.dll  	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.867
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.964
+MSCTF.dll   	6.3.19041.964
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.662
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.19041.964
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+ntmarta.dll 	6.3.19041.546
+wintypes.dll	6.3.19041.928
+D3D9.DLL    	6.3.19041.928
+dwmapi.dll  	6.3.19041.746
+windows.storage.dll	6.3.19041.964
+Wldp.dll    	6.3.19041.662
+nvldumd.dll 	27.21.14.5671
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+WINTRUST.DLL	6.3.19041.804
+imagehlp.dll	6.3.19041.546
+CRYPTSP.dll 	6.3.19041.546
+rsaenh.dll  	6.3.19041.546
+nvd3dum.dll 	27.21.14.5671
+shlwapi.dll 	6.3.19041.746
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+gpapi.dll   	6.3.19041.572
+dxcore.dll  	6.3.19041.546
+dinput8.dll 	6.3.19041.1
+HID.DLL     	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.746
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+MMDevAPI.DLL	6.3.19041.789
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.906
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+mswsock.dll 	6.3.19041.546
+DNSAPI.dll  	6.3.19041.928
+NSI.dll     	6.3.19041.610
+rasadhlp.dll	6.3.19041.546
+fwpuclnt.dll	6.3.19041.964
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Friday, July 2, 2021 at 00:33:47.
+
+srb2kart-moe.exe caused an Access Violation at location FFFF0202 Reading from location FFFF0202.
+
+Registers:
+eax=00000000 ebx=ffff0202 ecx=00000000 edx=656d2f00 esi=ffff0202 edi=ffff0202
+eip=ffff0202 esp=01cef990 ebp=01cefa18 iopl=0         nv up ei pl nz na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210202
+
+AddrPC   Params
+FFFF0202 FFFF0202 FFFF0202 FFFF0202
+FFFF0202 7D74E3C8 E1490000 068E0000
+004D5D80 0191BDA0 000051EB 0000000C  srb2kart-moe.exe!P_MobjThinker.part.0
+004641B3 00000000 00000000 00000000  srb2kart-moe.exe!K_KartPlayerThink
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1023
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1023
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1052
+USER32.dll  	6.3.19041.906
+win32u.dll  	6.3.19041.1052
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.928
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.844
+wldap32.dll 	6.3.19041.546
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+SHELL32.dll 	6.3.19041.1023
+IPHLPAPI.DLL	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+VERSION.dll 	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1052
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+discord-rpc.dll
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.928
+GLU32.dll   	6.3.19041.844
+MSCTF.dll   	6.3.19041.964
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1023
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreUIComponents.dll	6.3.19041.546
+wintypes.dll	6.3.19041.1052
+CoreMessaging.dll	6.3.19041.867
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+DiscordHook.dll
+USERENV.dll 	6.3.19041.572
+mswsock.dll 	6.3.19041.546
+dxgi.dll    	6.3.19041.964
+d3d11.dll   	6.3.19041.746
+nvldumd.dll 	27.21.14.6647
+imagehlp.dll	6.3.19041.546
+CRYPTSP.dll 	6.3.19041.546
+rsaenh.dll  	6.3.19041.1052
+nvwgf2um.dll	27.21.14.6647
+D3DCompiler_47.dll	6.3.19041.546
+nvapi.dll   	27.21.14.6647
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Friday, July 2, 2021 at 00:38:31.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=0899b190 edx=025a0000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1023
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1023
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1052
+libcurl.dll 	7.69.0.0
+discord-rpc.dll
+exchndl.dll 	0.9.0.0
+USER32.dll  	6.3.19041.906
+PSAPI.DLL   	6.3.19041.546
+CRYPT32.dll 	6.3.19041.844
+win32u.dll  	6.3.19041.1052
+ucrtbase.dll	6.3.19041.789
+SHELL32.dll 	6.3.19041.1023
+GDI32.dll   	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+wldap32.dll 	6.3.19041.546
+gdi32full.dll	6.3.19041.928
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1052
+mgwhelp.dll 	0.9.0.0
+OLEAUT32.dll	6.3.19041.985
+IPHLPAPI.DLL	6.3.19041.546
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.928
+GLU32.dll   	6.3.19041.844
+MSCTF.dll   	6.3.19041.964
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1023
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+wintypes.dll	6.3.19041.1052
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+ksuser.dll  	6.3.19041.1
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+DiscordHook.dll
+USERENV.dll 	6.3.19041.572
+mswsock.dll 	6.3.19041.546
+dxgi.dll    	6.3.19041.964
+d3d11.dll   	6.3.19041.746
+nvldumd.dll 	27.21.14.6647
+imagehlp.dll	6.3.19041.546
+CRYPTSP.dll 	6.3.19041.546
+rsaenh.dll  	6.3.19041.1052
+nvwgf2um.dll	27.21.14.6647
+nvapi.dll   	27.21.14.6647
+D3DCompiler_47.dll	6.3.19041.546
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Friday, July 2, 2021 at 17:00:55.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=52b70397 edx=02610000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1023
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1023
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1052
+USER32.dll  	6.3.19041.906
+win32u.dll  	6.3.19041.1052
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.928
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+SHELL32.dll 	6.3.19041.1023
+discord-rpc.dll
+IPHLPAPI.DLL	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+VERSION.dll 	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.844
+wldap32.dll 	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1052
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.928
+GLU32.dll   	6.3.19041.844
+MSCTF.dll   	6.3.19041.964
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1023
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1052
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Sunday, July 4, 2021 at 20:06:18.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=31426eb9 edx=025b0000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1023
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1023
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1052
+exchndl.dll 	0.9.0.0
+libcurl.dll 	7.69.0.0
+discord-rpc.dll
+USER32.dll  	6.3.19041.906
+PSAPI.DLL   	6.3.19041.546
+CRYPT32.dll 	6.3.19041.844
+win32u.dll  	6.3.19041.1052
+SHELL32.dll 	6.3.19041.1023
+ucrtbase.dll	6.3.19041.789
+GDI32.dll   	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+gdi32full.dll	6.3.19041.928
+wldap32.dll 	6.3.19041.546
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1052
+mgwhelp.dll 	0.9.0.0
+IPHLPAPI.DLL	6.3.19041.546
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+VERSION.dll 	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.928
+GLU32.dll   	6.3.19041.844
+MSCTF.dll   	6.3.19041.964
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1023
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1052
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Monday, July 5, 2021 at 02:50:59.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=7d664782 edx=02620000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1023
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1023
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1052
+exchndl.dll 	0.9.0.0
+libcurl.dll 	7.69.0.0
+discord-rpc.dll
+PSAPI.DLL   	6.3.19041.546
+CRYPT32.dll 	6.3.19041.844
+SHELL32.dll 	6.3.19041.1023
+USER32.dll  	6.3.19041.906
+ucrtbase.dll	6.3.19041.789
+msvcp_win.dll	6.3.19041.789
+win32u.dll  	6.3.19041.1052
+wldap32.dll 	6.3.19041.546
+GDI32.dll   	6.3.19041.746
+WS2_32.dll  	6.3.19041.546
+gdi32full.dll	6.3.19041.928
+libgme.dll
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+mgwhelp.dll 	0.9.0.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1052
+IPHLPAPI.DLL	6.3.19041.546
+OLEAUT32.dll	6.3.19041.985
+VERSION.dll 	6.3.19041.546
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+WINMM.DLL   	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+dbgcore.DLL 	6.3.19041.546
+TextShaping.dll
+uxtheme.dll 	6.3.19041.746
+MSCTF.dll   	6.3.19041.964
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+textinputframework.dll	6.3.19041.964
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+SHCORE.dll  	6.3.19041.1023
+wintypes.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+OPENGL32.DLL	6.3.19041.928
+GLU32.dll   	6.3.19041.844
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+windows.storage.dll	6.3.19041.1023
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+mswsock.dll 	6.3.19041.546
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Monday, July 5, 2021 at 14:04:51.
+
+srb2kart-moe.exe caused an Access Violation at location 00569104 in module srb2kart-moe.exe Reading from location 0935DF24.
+
+Registers:
+eax=00000000 ebx=404a9398 ecx=0935df24 edx=00000000 esi=53a23118 edi=00000000
+eip=00569104 esp=01cef9c0 ebp=00000004 iopl=0         nv up ei pl nz ac po cy
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210217
+
+AddrPC   Params
+00569104 0243D030 0007FF80 00000000  srb2kart-moe.exe!HWR_DrawPatchInCache
+75D5AD01 0243D028 00000000 00080000  msvcrt.dll!wcstok_s
+00569004 00000400 00000100 0000012C  srb2kart-moe.exe!MakeBlock
+00569473 0000000E 000004A3 00000100  srb2kart-moe.exe!HWR_MakePatch
+00534997 53A23118 4FD1E068 404A9398  srb2kart-moe.exe!W_CacheLumpNumPwad
+0056A171 01CEFB30 01CEFB34 4F4B8D00  srb2kart-moe.exe!HWR_GetMappedPatch
+77C4BE5F 4FD1E068 12798500 060315FC  ntdll.dll!RtlWow64GetProcessMachines
+0055A23E 00000000 00000000 00000000  srb2kart-moe.exe!HWR_DrawSprite
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1023
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1023
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1052
+USER32.dll  	6.3.19041.906
+win32u.dll  	6.3.19041.1052
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.928
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+SHELL32.dll 	6.3.19041.1023
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.844
+wldap32.dll 	6.3.19041.546
+IPHLPAPI.DLL	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+VERSION.dll 	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1052
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+discord-rpc.dll
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.928
+GLU32.dll   	6.3.19041.844
+MSCTF.dll   	6.3.19041.964
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1023
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1052
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Tuesday, July 6, 2021 at 00:28:38.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=94e3b1f4 edx=02670000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1023
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1023
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1052
+libcurl.dll 	7.69.0.0
+discord-rpc.dll
+exchndl.dll 	0.9.0.0
+USER32.dll  	6.3.19041.906
+CRYPT32.dll 	6.3.19041.844
+win32u.dll  	6.3.19041.1052
+PSAPI.DLL   	6.3.19041.546
+ucrtbase.dll	6.3.19041.789
+SHELL32.dll 	6.3.19041.1023
+GDI32.dll   	6.3.19041.746
+wldap32.dll 	6.3.19041.546
+msvcp_win.dll	6.3.19041.789
+gdi32full.dll	6.3.19041.928
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1052
+IPHLPAPI.DLL	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+VERSION.dll 	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.928
+GLU32.dll   	6.3.19041.844
+MSCTF.dll   	6.3.19041.964
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1023
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1052
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Wednesday, July 7, 2021 at 03:02:18.
+
+srb2kart-moe.exe caused an Access Violation at location 00569104 in module srb2kart-moe.exe Reading from location 47CA97A5.
+
+Registers:
+eax=00000000 ebx=15cb37a0 ecx=47ca97a5 edx=00000000 esi=147e0950 edi=00000000
+eip=00569104 esp=01cefb00 ebp=00000004 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00569104 022A0030 001FFF80 00000000  srb2kart-moe.exe!HWR_DrawPatchInCache
+75D5AD01 022A0028 00000000 00200000  msvcrt.dll!wcstok_s
+00569004 00002000 000016B4 FFFFFDF2  srb2kart-moe.exe!MakeBlock
+00569473 0000000D 00000290 00000800  srb2kart-moe.exe!HWR_MakePatch
+00534997 147E0950 1580EE88 15CB37A0  srb2kart-moe.exe!W_CacheLumpNumPwad
+0056A0ED 1580EE88 15707E00 01CEFC20  srb2kart-moe.exe!HWR_GetMappedPatch
+005585F7 0000FF00 00000010 00989680  srb2kart-moe.exe!HWR_DrawFixedPatch
+00485A9A 01930A00 00118F3F 00989680  srb2kart-moe.exe!M_Drawer
+00401B41 00000000 00000000 00000000  srb2kart-moe.exe!D_Display
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1023
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1023
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1052
+USER32.dll  	6.3.19041.906
+win32u.dll  	6.3.19041.1052
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.928
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+SHELL32.dll 	6.3.19041.1023
+libgme.dll
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.844
+wldap32.dll 	6.3.19041.546
+IPHLPAPI.DLL	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+VERSION.dll 	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+WINMM.DLL   	6.3.19041.546
+combase.dll 	6.3.19041.1052
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+discord-rpc.dll
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.928
+GLU32.dll   	6.3.19041.844
+MSCTF.dll   	6.3.19041.964
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1023
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+wintypes.dll	6.3.19041.1052
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Wednesday, July 7, 2021 at 03:18:45.
+
+srb2kart-moe.exe caused an Access Violation at location 00569104 in module srb2kart-moe.exe Reading from location F7F01BDF.
+
+Registers:
+eax=00000000 ebx=1958f150 ecx=f7f01bdf edx=00001181 esi=1579f548 edi=00000000
+eip=00569104 esp=01cefb00 ebp=00000004 iopl=0         nv up ei ng nz na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210282
+
+AddrPC   Params
+00569104 099D1030 001FFF80 00000000  srb2kart-moe.exe!HWR_DrawPatchInCache
+75D5AD01 099D1028 00000000 00200000  msvcrt.dll!wcstok_s
+00569004 00000400 FFFF9665 00006FCF  srb2kart-moe.exe!MakeBlock
+00569473 00000010 00000113 FFFF9665  srb2kart-moe.exe!HWR_MakePatch
+00534997 1579F548 195116C8 1958F150  srb2kart-moe.exe!W_CacheLumpNumPwad
+0056A0ED 195116C8 193A1C00 01CEFC20  srb2kart-moe.exe!HWR_GetMappedPatch
+005585F7 0000FF00 00000010 00989680  srb2kart-moe.exe!HWR_DrawFixedPatch
+00485A9A 01930A00 0191BDA0 00989680  srb2kart-moe.exe!M_Drawer
+00401B41 00000000 00000000 00000000  srb2kart-moe.exe!D_Display
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1023
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1023
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1052
+exchndl.dll 	0.9.0.0
+discord-rpc.dll
+USER32.dll  	6.3.19041.906
+PSAPI.DLL   	6.3.19041.546
+SHELL32.dll 	6.3.19041.1023
+win32u.dll  	6.3.19041.1052
+msvcp_win.dll	6.3.19041.789
+GDI32.dll   	6.3.19041.746
+libcurl.dll 	7.69.0.0
+ucrtbase.dll	6.3.19041.789
+gdi32full.dll	6.3.19041.928
+CRYPT32.dll 	6.3.19041.844
+WS2_32.dll  	6.3.19041.546
+wldap32.dll 	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1052
+IPHLPAPI.DLL	6.3.19041.546
+OLEAUT32.dll	6.3.19041.985
+mgwhelp.dll 	0.9.0.0
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.928
+GLU32.dll   	6.3.19041.844
+MSCTF.dll   	6.3.19041.964
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1023
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1052
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Wednesday, July 7, 2021 at 04:00:44.
+
+srb2kart-moe.exe caused an Access Violation at location 00569104 in module srb2kart-moe.exe Reading from location 49F5CC17.
+
+Registers:
+eax=00000000 ebx=1f80dd20 ecx=49f5cc17 edx=0000138c esi=1290f170 edi=00000000
+eip=00569104 esp=01cefb00 ebp=00000004 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00569104 17870030 001FFF80 00000000  srb2kart-moe.exe!HWR_DrawPatchInCache
+75D5AD01 17870028 00000000 00200000  msvcrt.dll!wcstok_s
+00569004 00000400 FFFFFA23 00003794  srb2kart-moe.exe!MakeBlock
+00569473 00000015 00000305 FFFFFA23  srb2kart-moe.exe!HWR_MakePatch
+00534997 1290F170 15AFF5A8 1F80DD20  srb2kart-moe.exe!W_CacheLumpNumPwad
+0056A0ED 15AFF5A8 208E1300 01CEFC20  srb2kart-moe.exe!HWR_GetMappedPatch
+005585F7 0000FF00 00000010 00989680  srb2kart-moe.exe!HWR_DrawFixedPatch
+00485A9A 01930A00 0191BDA0 00989680  srb2kart-moe.exe!M_Drawer
+00401B41 00000000 00000000 00000000  srb2kart-moe.exe!D_Display
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1023
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1023
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1052
+USER32.dll  	6.3.19041.906
+win32u.dll  	6.3.19041.1052
+GDI32.dll   	6.3.19041.746
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.844
+gdi32full.dll	6.3.19041.928
+ucrtbase.dll	6.3.19041.789
+discord-rpc.dll
+msvcp_win.dll	6.3.19041.789
+exchndl.dll 	0.9.0.0
+wldap32.dll 	6.3.19041.546
+WS2_32.dll  	6.3.19041.546
+PSAPI.DLL   	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+ole32.dll   	6.3.19041.746
+SHELL32.dll 	6.3.19041.1023
+combase.dll 	6.3.19041.1052
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+IPHLPAPI.DLL	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+mgwhelp.dll 	0.9.0.0
+WINMM.DLL   	6.3.19041.546
+VERSION.dll 	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.928
+GLU32.dll   	6.3.19041.844
+MSCTF.dll   	6.3.19041.964
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1023
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+wintypes.dll	6.3.19041.1052
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Wednesday, July 7, 2021 at 04:03:12.
+
+srb2kart-moe.exe caused an Access Violation at location 00569104 in module srb2kart-moe.exe Reading from location D70CCE00.
+
+Registers:
+eax=00000000 ebx=14829aa0 ecx=d70cce00 edx=00005ac5 esi=1016e228 edi=00000000
+eip=00569104 esp=01cefb00 ebp=00000004 iopl=0         nv up ei ng nz ac po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210296
+
+AddrPC   Params
+00569104 1574B030 00FFFF80 00000000  srb2kart-moe.exe!HWR_DrawPatchInCache
+75D5AD01 1574B028 00000000 01000000  msvcrt.dll!wcstok_s
+00569004 00002000 0000567D 00006FCB  srb2kart-moe.exe!MakeBlock
+00569473 00000014 0000000C 00000800  srb2kart-moe.exe!HWR_MakePatch
+00534997 1016E228 0FEB6B38 14829AA0  srb2kart-moe.exe!W_CacheLumpNumPwad
+0056A0ED 0FEB6B38 14E82C00 03DB0280  srb2kart-moe.exe!HWR_GetMappedPatch
+005585F7 0000FF00 00000010 00989680  srb2kart-moe.exe!HWR_DrawFixedPatch
+00485A9A 01930A00 00051497 00989680  srb2kart-moe.exe!M_Drawer
+00401B41 00000000 00000000 00000000  srb2kart-moe.exe!D_Display
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1023
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1023
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1052
+libcurl.dll 	7.69.0.0
+exchndl.dll 	0.9.0.0
+discord-rpc.dll
+CRYPT32.dll 	6.3.19041.844
+USER32.dll  	6.3.19041.906
+PSAPI.DLL   	6.3.19041.546
+ucrtbase.dll	6.3.19041.789
+win32u.dll  	6.3.19041.1052
+SHELL32.dll 	6.3.19041.1023
+GDI32.dll   	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+wldap32.dll 	6.3.19041.546
+gdi32full.dll	6.3.19041.928
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1052
+mgwhelp.dll 	0.9.0.0
+IPHLPAPI.DLL	6.3.19041.546
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.746
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.928
+GLU32.dll   	6.3.19041.844
+MSCTF.dll   	6.3.19041.964
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1023
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+wintypes.dll	6.3.19041.1052
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Tuesday, July 13, 2021 at 19:21:54.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=70e19e6f edx=02620000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1081
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1082
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1081
+USER32.dll  	6.3.19041.906
+win32u.dll  	6.3.19041.1081
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.928
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+SHELL32.dll 	6.3.19041.1023
+libgme.dll
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.844
+SDL2_mixer.dll	2.0.4.0
+IPHLPAPI.DLL	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1081
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+wldap32.dll 	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+discord-rpc.dll
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1081
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1081
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+wintypes.dll	6.3.19041.1081
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Saturday, July 17, 2021 at 00:18:48.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=8dcb5fcd edx=02690000 esi=00000000 edi=00000000
+eip=00000000 esp=01cefb10 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1081
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1082
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1081
+exchndl.dll 	0.9.0.0
+libcurl.dll 	7.69.0.0
+discord-rpc.dll
+USER32.dll  	6.3.19041.906
+PSAPI.DLL   	6.3.19041.546
+CRYPT32.dll 	6.3.19041.844
+win32u.dll  	6.3.19041.1081
+ucrtbase.dll	6.3.19041.789
+SHELL32.dll 	6.3.19041.1023
+GDI32.dll   	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+gdi32full.dll	6.3.19041.928
+wldap32.dll 	6.3.19041.546
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1081
+mgwhelp.dll 	0.9.0.0
+IPHLPAPI.DLL	6.3.19041.546
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+VERSION.dll 	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1081
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1081
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1081
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+DiscordHook.dll
+USERENV.dll 	6.3.19041.572
+mswsock.dll 	6.3.19041.546
+dxgi.dll    	6.3.19041.964
+d3d11.dll   	6.3.19041.746
+nvldumd.dll 	27.21.14.6647
+imagehlp.dll	6.3.19041.546
+CRYPTSP.dll 	6.3.19041.546
+rsaenh.dll  	6.3.19041.1052
+nvwgf2um.dll	27.21.14.6647
+nvapi.dll   	27.21.14.6647
+D3DCompiler_47.dll	6.3.19041.546
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Sunday, July 18, 2021 at 03:10:51.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=54715668 edx=01de0000 esi=00000000 edi=00000000
+eip=00000000 esp=01cefb10 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1081
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1082
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1081
+USER32.dll  	6.3.19041.906
+libcurl.dll 	7.69.0.0
+exchndl.dll 	0.9.0.0
+discord-rpc.dll
+CRYPT32.dll 	6.3.19041.844
+PSAPI.DLL   	6.3.19041.546
+win32u.dll  	6.3.19041.1081
+SHELL32.dll 	6.3.19041.1023
+GDI32.dll   	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+libgme.dll
+SDL2.dll    	2.0.9.0
+gdi32full.dll	6.3.19041.928
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+WS2_32.dll  	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1081
+OLEAUT32.dll	6.3.19041.985
+IPHLPAPI.DLL	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+SETUPAPI.dll	6.3.19041.844
+wldap32.dll 	6.3.19041.546
+cfgmgr32.dll	6.3.19041.546
+VERSION.dll 	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1081
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1081
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1081
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+DiscordHook.dll
+USERENV.dll 	6.3.19041.572
+mswsock.dll 	6.3.19041.546
+dxgi.dll    	6.3.19041.964
+d3d11.dll   	6.3.19041.746
+nvldumd.dll 	27.21.14.6647
+imagehlp.dll	6.3.19041.546
+CRYPTSP.dll 	6.3.19041.546
+rsaenh.dll  	6.3.19041.1052
+nvwgf2um.dll	27.21.14.6647
+nvapi.dll   	27.21.14.6647
+D3DCompiler_47.dll	6.3.19041.546
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Monday, July 19, 2021 at 22:34:33.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=b0a1df73 edx=02850000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1081
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1082
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1081
+libcurl.dll 	7.69.0.0
+discord-rpc.dll
+exchndl.dll 	0.9.0.0
+USER32.dll  	6.3.19041.906
+CRYPT32.dll 	6.3.19041.844
+PSAPI.DLL   	6.3.19041.546
+win32u.dll  	6.3.19041.1081
+ucrtbase.dll	6.3.19041.789
+SHELL32.dll 	6.3.19041.1023
+GDI32.dll   	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+wldap32.dll 	6.3.19041.546
+gdi32full.dll	6.3.19041.928
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+IPHLPAPI.DLL	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+combase.dll 	6.3.19041.1081
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+VERSION.dll 	6.3.19041.546
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1081
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1081
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+wintypes.dll	6.3.19041.1081
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Monday, July 19, 2021 at 22:36:05.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=447d8b71 edx=02620000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1081
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1082
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1081
+libcurl.dll 	7.69.0.0
+exchndl.dll 	0.9.0.0
+discord-rpc.dll
+PSAPI.DLL   	6.3.19041.546
+CRYPT32.dll 	6.3.19041.844
+USER32.dll  	6.3.19041.906
+SHELL32.dll 	6.3.19041.1023
+ucrtbase.dll	6.3.19041.789
+win32u.dll  	6.3.19041.1081
+msvcp_win.dll	6.3.19041.789
+GDI32.dll   	6.3.19041.746
+wldap32.dll 	6.3.19041.546
+gdi32full.dll	6.3.19041.928
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+mgwhelp.dll 	0.9.0.0
+combase.dll 	6.3.19041.1081
+IPHLPAPI.DLL	6.3.19041.546
+OLEAUT32.dll	6.3.19041.985
+VERSION.dll 	6.3.19041.546
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+bcrypt.dll  	6.3.19041.1023
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1081
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1081
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+wintypes.dll	6.3.19041.1081
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Tuesday, July 20, 2021 at 22:04:09.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=8757d057 edx=01e40000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1081
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1082
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+libcurl.dll 	7.69.0.0
+RPCRT4.dll  	6.3.19041.1081
+discord-rpc.dll
+exchndl.dll 	0.9.0.0
+CRYPT32.dll 	6.3.19041.844
+PSAPI.DLL   	6.3.19041.546
+ucrtbase.dll	6.3.19041.789
+USER32.dll  	6.3.19041.906
+SHELL32.dll 	6.3.19041.1023
+win32u.dll  	6.3.19041.1081
+msvcp_win.dll	6.3.19041.789
+wldap32.dll 	6.3.19041.546
+GDI32.dll   	6.3.19041.746
+WS2_32.dll  	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+gdi32full.dll	6.3.19041.928
+ole32.dll   	6.3.19041.746
+SDL2_mixer.dll	2.0.4.0
+combase.dll 	6.3.19041.1081
+libgme.dll
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+IPHLPAPI.DLL	6.3.19041.546
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+mgwhelp.dll 	0.9.0.0
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1081
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1081
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1081
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Sunday, July 25, 2021 at 21:29:18.
+
+srb2kart-moe.exe caused an Access Violation at location 00569104 in module srb2kart-moe.exe Reading from location 8218A6AF.
+
+Registers:
+eax=00000000 ebx=23484914 ecx=8218a6af edx=000041a4 esi=1f00ec38 edi=00000000
+eip=00569104 esp=01cef950 ebp=00000004 iopl=0         ov up ei ng nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210a86
+
+AddrPC   Params
+00569104 640F2030 001FFF80 00000000  srb2kart-moe.exe!HWR_DrawPatchInCache
+758FAD01 640F2028 00000000 00200000  msvcrt.dll!wcstok_s
+00569004 00000400 FFFFBA78 00006314  srb2kart-moe.exe!MakeBlock
+00569BB0 00001101 00000000 004A0000  srb2kart-moe.exe!HWR_GetTexture
+0055FE93 00002EF1 0BB80000 D5000000  srb2kart-moe.exe!HWR_ProcessSeg
+0055FE93 020D87F9 0614D6E3 FF000003  srb2kart-moe.exe!HWR_ProcessSeg
+00515694 C63C0000 C7000000 C62C0000  srb2kart-moe.exe!R_PointToAngleEx
+0056287F 625F1E4C 00000000 00000000  srb2kart-moe.exe!HWR_AddLine
+00562F79 00000000 00000000 00000000  srb2kart-moe.exe!HWR_Subsector
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1081
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1082
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1081
+USER32.dll  	6.3.19041.906
+win32u.dll  	6.3.19041.1081
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.928
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+libcurl.dll 	7.69.0.0
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+CRYPT32.dll 	6.3.19041.844
+SHELL32.dll 	6.3.19041.1023
+wldap32.dll 	6.3.19041.546
+libgme.dll
+IPHLPAPI.DLL	6.3.19041.546
+discord-rpc.dll
+VERSION.dll 	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+WINMM.DLL   	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1081
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1081
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1081
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+wintypes.dll	6.3.19041.1081
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Monday, July 26, 2021 at 19:41:59.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=16d8f97b edx=02630000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1081
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1082
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1081
+libcurl.dll 	7.69.0.0
+exchndl.dll 	0.9.0.0
+discord-rpc.dll
+USER32.dll  	6.3.19041.906
+PSAPI.DLL   	6.3.19041.546
+CRYPT32.dll 	6.3.19041.844
+win32u.dll  	6.3.19041.1081
+ucrtbase.dll	6.3.19041.789
+SHELL32.dll 	6.3.19041.1023
+GDI32.dll   	6.3.19041.746
+msvcp_win.dll	6.3.19041.789
+gdi32full.dll	6.3.19041.928
+wldap32.dll 	6.3.19041.546
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1081
+mgwhelp.dll 	0.9.0.0
+OLEAUT32.dll	6.3.19041.985
+IPHLPAPI.DLL	6.3.19041.546
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1081
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1081
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1081
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Tuesday, July 27, 2021 at 01:04:58.
+
+srb2kart-moe.exe caused an Access Violation at location 00569104 in module srb2kart-moe.exe Reading from location BABED033.
+
+Registers:
+eax=00000000 ebx=40611c90 ecx=babed033 edx=00000000 esi=5458a040 edi=00000000
+eip=00569104 esp=01cefb10 ebp=00000004 iopl=0         ov up ei ng nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210a86
+
+AddrPC   Params
+00569104 4FF2DA50 00000000 00020000  srb2kart-moe.exe!HWR_DrawPatchInCache
+00569004 00000400 000000A0 00000064  srb2kart-moe.exe!MakeBlock
+00569473 00000010 0000006B 000000A0  srb2kart-moe.exe!HWR_MakePatch
+00534997 5458A040 406671E0 40611C90  srb2kart-moe.exe!W_CacheLumpNumPwad
+0056A011 406671E0 01CEFC50 00000004  srb2kart-moe.exe!HWR_GetPatch
+00558968 00000000 00000000 00000000  srb2kart-moe.exe!HWR_DrawFixedPatch
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1081
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1082
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1081
+discord-rpc.dll
+USER32.dll  	6.3.19041.906
+exchndl.dll 	0.9.0.0
+libcurl.dll 	7.69.0.0
+win32u.dll  	6.3.19041.1081
+PSAPI.DLL   	6.3.19041.546
+CRYPT32.dll 	6.3.19041.844
+SHELL32.dll 	6.3.19041.1023
+GDI32.dll   	6.3.19041.746
+ucrtbase.dll	6.3.19041.789
+gdi32full.dll	6.3.19041.928
+msvcp_win.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+wldap32.dll 	6.3.19041.546
+libgme.dll
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1081
+mgwhelp.dll 	0.9.0.0
+IPHLPAPI.DLL	6.3.19041.546
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+VERSION.dll 	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1081
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1081
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+wintypes.dll	6.3.19041.1081
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, July 29, 2021 at 00:13:50.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=326e301b edx=025f0000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1081
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1082
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1081
+USER32.dll  	6.3.19041.906
+win32u.dll  	6.3.19041.1081
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.928
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+discord-rpc.dll
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.844
+wldap32.dll 	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+IPHLPAPI.DLL	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+combase.dll 	6.3.19041.1081
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+SHELL32.dll 	6.3.19041.1023
+VERSION.dll 	6.3.19041.546
+libgme.dll
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1081
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1081
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+wintypes.dll	6.3.19041.1081
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Saturday, August 7, 2021 at 02:26:15.
+
+srb2kart-moe.exe caused an Access Violation at location 6F248EC4 in module DiscordHook.dll Reading from location 0000000C.
+
+Registers:
+eax=00000000 ebx=09d6b201 ecx=09e2ac10 edx=00000008 esi=09e2ac20 edi=0000003f
+eip=6f248ec4 esp=147ef278 ebp=147ef27c iopl=0         nv up ei pl nz na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00010202
+
+AddrPC   Params
+6F248EC4 00000000 09E2AC10 09D6B250  DiscordHook.dll!_dummy_debug_proc@12
+6F1FE7D1 00000000 09D6B208 00000008  DiscordHook.dll!Ordinal0
+6F200A7C 01F58738 00000002 0000001E  DiscordHook.dll!Ordinal0
+6F2020A1 147EF338 147EF33C 147EF340  DiscordHook.dll!Ordinal0
+6F21C5F9 01F58738 00000078 09E8CCC8  DiscordHook.dll!_dummy_debug_proc@12
+6F21BE7D 147EF38C 09DFFF00 00000010  DiscordHook.dll!_dummy_debug_proc@12
+6F21BCBE 09DFB788 00000010 147EF3B8  DiscordHook.dll!_dummy_debug_proc@12
+6F2549F2 FFFFFFFF 00000000 09DFB898  DiscordHook.dll!_dummy_debug_proc@12
+6F254699 09D98AF0 09DFB788 09DFB7CC  DiscordHook.dll!_dummy_debug_proc@12
+6F24BC4F 09D98AF0 00000000 09D98AF0  DiscordHook.dll!_dummy_debug_proc@12
+6F22A057 09D8B510 6F26E700 09C4A101  DiscordHook.dll!_dummy_debug_proc@12
+6F22A499 6F229FA0 09C4A12C 09C4A120  DiscordHook.dll!_dummy_debug_proc@12
+6F22A3C4 147EFF70 6F2CDD64 14A2FEA8  DiscordHook.dll!_dummy_debug_proc@12
+6F22A4BA 14A2FEA8 7742E1F9 6F2CDD0C  DiscordHook.dll!_dummy_debug_proc@12
+6F2CDD64 09C49E80 762FFA10 147EFFDC  DiscordHook.dll!_dummy_debug_proc@12
+762FFA29 09C49E80 24CBA9F3 00000000  KERNEL32.DLL!BaseThreadInitThunk
+76F47A7E FFFFFFFF 76F68A4D 00000000  ntdll.dll!RtlGetAppContainerNamedObjectPath
+76F47A4E 6F2CDD0C 09C49E80 00000000  ntdll.dll!RtlGetAppContainerNamedObjectPath
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1081
+KERNEL32.DLL	6.3.19041.1023
+KERNELBASE.dll	6.3.19041.1082
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1081
+USER32.dll  	6.3.19041.906
+win32u.dll  	6.3.19041.1081
+GDI32.dll   	6.3.19041.746
+gdi32full.dll	6.3.19041.928
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+exchndl.dll 	0.9.0.0
+libcurl.dll 	7.69.0.0
+PSAPI.DLL   	6.3.19041.546
+CRYPT32.dll 	6.3.19041.844
+SHELL32.dll 	6.3.19041.1023
+wldap32.dll 	6.3.19041.546
+libgme.dll
+IPHLPAPI.DLL	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+VERSION.dll 	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.746
+dbgcore.DLL 	6.3.19041.546
+combase.dll 	6.3.19041.1081
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.844
+cfgmgr32.dll	6.3.19041.546
+bcrypt.dll  	6.3.19041.1023
+discord-rpc.dll
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1081
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1023
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.546
+WINTRUST.dll	6.3.19041.1052
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1081
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.964
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1081
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+DiscordHook.dll
+USERENV.dll 	6.3.19041.572
+mswsock.dll 	6.3.19041.546
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, October 7, 2021 at 01:35:30.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=b1a4c795 edx=02530000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1202
+KERNEL32.DLL	6.3.19041.1202
+KERNELBASE.dll	6.3.19041.1202
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1081
+USER32.dll  	6.3.19041.1237
+win32u.dll  	6.3.19041.1237
+GDI32.dll   	6.3.19041.1202
+gdi32full.dll	6.3.19041.1110
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+libgme.dll
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.1202
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.1202
+combase.dll 	6.3.19041.1202
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.1237
+cfgmgr32.dll	6.3.19041.1151
+bcrypt.dll  	6.3.19041.1023
+SHELL32.dll 	6.3.19041.1202
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+IPHLPAPI.DLL	6.3.19041.546
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+wldap32.dll 	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+SDL2_mixer.dll	2.0.4.0
+discord-rpc.dll
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1202
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1202
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.1151
+WINTRUST.dll	6.3.19041.1237
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1202
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.1202
+CoreMessaging.dll	6.3.19041.867
+CoreUIComponents.dll	6.3.19041.546
+wintypes.dll	6.3.19041.1202
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+deviceaccess.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, October 7, 2021 at 01:36:30.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=ef6d38cf edx=02720000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1202
+KERNEL32.DLL	6.3.19041.1202
+KERNELBASE.dll	6.3.19041.1202
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1081
+libcurl.dll 	7.69.0.0
+discord-rpc.dll
+exchndl.dll 	0.9.0.0
+CRYPT32.dll 	6.3.19041.1202
+PSAPI.DLL   	6.3.19041.546
+USER32.dll  	6.3.19041.1237
+SHELL32.dll 	6.3.19041.1202
+ucrtbase.dll	6.3.19041.789
+win32u.dll  	6.3.19041.1237
+msvcp_win.dll	6.3.19041.789
+GDI32.dll   	6.3.19041.1202
+wldap32.dll 	6.3.19041.546
+WS2_32.dll  	6.3.19041.546
+gdi32full.dll	6.3.19041.1110
+libgme.dll
+SDL2.dll    	2.0.9.0
+SDL2_mixer.dll	2.0.4.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.1202
+mgwhelp.dll 	0.9.0.0
+combase.dll 	6.3.19041.1202
+IPHLPAPI.DLL	6.3.19041.546
+OLEAUT32.dll	6.3.19041.985
+VERSION.dll 	6.3.19041.546
+SETUPAPI.dll	6.3.19041.1237
+cfgmgr32.dll	6.3.19041.1151
+WINMM.DLL   	6.3.19041.546
+dbghelp.dll 	6.3.19041.1052
+bcrypt.dll  	6.3.19041.1023
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.1081
+SHCORE.DLL  	6.3.19041.1023
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1202
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1202
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.1151
+WINTRUST.dll	6.3.19041.1237
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1202
+Wldp.dll    	6.3.19041.662
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.1202
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1202
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Tuesday, December 7, 2021 at 23:32:20.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=24623257 edx=01df0000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1288
+KERNEL32.DLL	6.3.19041.1348
+KERNELBASE.dll	6.3.19041.1348
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1288
+USER32.dll  	6.3.19041.1348
+win32u.dll  	6.3.19041.1320
+GDI32.dll   	6.3.19041.1202
+gdi32full.dll	6.3.19041.1320
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+SHELL32.dll 	6.3.19041.1320
+libgme.dll
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.1320
+SDL2_mixer.dll	2.0.4.0
+IPHLPAPI.DLL	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.1202
+combase.dll 	6.3.19041.1348
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.1237
+cfgmgr32.dll	6.3.19041.1151
+bcrypt.dll  	6.3.19041.1023
+VERSION.dll 	6.3.19041.546
+WINMM.DLL   	6.3.19041.546
+wldap32.dll 	6.3.19041.546
+discord-rpc.dll
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.19041.1052
+dbgcore.DLL 	6.3.19041.546
+uxtheme.dll 	6.3.19041.1266
+SHCORE.DLL  	6.3.19041.1320
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1202
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1348
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.1151
+WINTRUST.dll	6.3.19041.1266
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1320
+Wldp.dll    	6.3.19041.1320
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.1320
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1348
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+ksuser.dll  	6.3.19041.1
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Friday, December 17, 2021 at 00:17:30.
+
+srb2kart-moe.exe caused an Access Violation at location 00000000 Reading from location 00000000.
+
+Registers:
+eax=00000001 ebx=00000000 ecx=8563a000 edx=02620000 esi=00000000 edi=00000000
+eip=00000000 esp=01cef6c0 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+00000000 00000000 00000000 00000000
+
+srb2kart-moe.exe
+ntdll.dll   	6.3.19041.1288
+KERNEL32.DLL	6.3.19041.1348
+KERNELBASE.dll	6.3.19041.1348
+ADVAPI32.dll	6.3.19041.1052
+msvcrt.dll  	7.0.19041.546
+sechost.dll 	6.3.19041.906
+RPCRT4.dll  	6.3.19041.1288
+USER32.dll  	6.3.19041.1348
+win32u.dll  	6.3.19041.1320
+GDI32.dll   	6.3.19041.1202
+gdi32full.dll	6.3.19041.1320
+msvcp_win.dll	6.3.19041.789
+ucrtbase.dll	6.3.19041.789
+WS2_32.dll  	6.3.19041.546
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.19041.546
+SHELL32.dll 	6.3.19041.1320
+discord-rpc.dll
+SDL2_mixer.dll	2.0.4.0
+IPHLPAPI.DLL	6.3.19041.546
+mgwhelp.dll 	0.9.0.0
+VERSION.dll 	6.3.19041.546
+SDL2.dll    	2.0.9.0
+IMM32.DLL   	6.3.19041.546
+ole32.dll   	6.3.19041.1202
+WINMM.DLL   	6.3.19041.546
+combase.dll 	6.3.19041.1348
+OLEAUT32.dll	6.3.19041.985
+SETUPAPI.dll	6.3.19041.1237
+dbghelp.dll 	6.3.19041.1052
+cfgmgr32.dll	6.3.19041.1151
+bcrypt.dll  	6.3.19041.1023
+dbgcore.DLL 	6.3.19041.546
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.19041.1320
+libgme.dll
+wldap32.dll 	6.3.19041.546
+uxtheme.dll 	6.3.19041.1266
+SHCORE.DLL  	6.3.19041.1320
+OPENGL32.DLL	6.3.19041.1081
+GLU32.dll   	6.3.19041.1081
+MSCTF.dll   	6.3.19041.1202
+kernel.appcore.dll	6.3.19041.546
+bcryptPrimitives.dll	6.3.19041.1348
+clbcatq.dll 	2001.12.10941.16384
+nvoglv32.dll	27.21.14.6647
+WTSAPI32.dll	6.3.19041.546
+msasn1.dll  	6.3.19041.546
+cryptnet.dll	6.3.19041.906
+cryptbase.dll	6.3.19041.546
+DEVOBJ.dll  	6.3.19041.1151
+WINTRUST.dll	6.3.19041.1266
+ntmarta.dll 	6.3.19041.546
+windows.storage.dll	6.3.19041.1320
+Wldp.dll    	6.3.19041.1320
+shlwapi.dll 	6.3.19041.1023
+dxcore.dll  	6.3.19041.546
+nvspcap.dll 	3.22.0.32
+profapi.dll 	6.3.19041.844
+dwmapi.dll  	6.3.19041.746
+powrprof.dll	6.3.19041.546
+UMPDC.dll
+WINSTA.dll  	6.3.19041.546
+textinputframework.dll	6.3.19041.1320
+CoreUIComponents.dll	6.3.19041.546
+CoreMessaging.dll	6.3.19041.867
+wintypes.dll	6.3.19041.1348
+dinput8.dll 	6.3.19041.1
+inputhost.dll	6.3.19041.906
+PROPSYS.dll 	7.0.19041.1023
+HID.DLL     	6.3.19041.546
+XInput1_4.dll	6.3.19041.844
+deviceaccess.dll	6.3.19041.746
+DSOUND.DLL  	6.3.19041.1
+winmmbase.dll	6.3.19041.1
+MMDevAPI.DLL	6.3.19041.1023
+wdmaud.drv  	6.3.19041.1
+ksuser.dll  	6.3.19041.1
+AVRT.dll    	6.3.19041.546
+AUDIOSES.DLL	6.3.19041.1023
+msacm32.drv 	6.3.19041.488
+MSACM32.dll 	6.3.19041.1
+midimap.dll 	6.3.19041.488
+libFLAC-8.dll
+libogg-0.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libvorbisfile-3.dll
+libvorbis-0.dll
+resourcepolicyclient.dll	6.3.19041.546
+Windows.UI.dll	6.3.19041.746
+WindowManagementAPI.dll
+twinapi.appcore.dll	6.3.19041.746
+
+Windows 6.3.9600
+DrMingw 0.9.0
+

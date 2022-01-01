@@ -1,0 +1,137 @@
+---Vanilla SRB2 sounds---
+DSMSWING - Mace (Spinning)
+DSNBMPER - NiGHTS Bumper
+DSSPDPAD - Speed pad
+
+---Kart Exclusive Sounds---
+
+DSSLIP - Spin out
+DSSCREEC - Kart Screech
+DSDRIFT - Starting a drift
+DSRUBURN - depreciated kart sound?
+DSDDASH - Drop Dash
+DSTOSSED - Throwing an item
+DSITPICK - Picking up a dropped item
+DSPEEL - Banana landing/bouncing off a wall
+DSHOGBOM - Ball Hog explosion
+DSZIO3 - Lightning Shield used
+DSKPOGOS - Pogo Spring used
+DSALARMI - Incoming Invincible Player
+DSALARMG - Incoming Grown Player
+DSKINVNC - Incoming Invincible Player (used if "Powerup Warning" is set to 'Music')
+DSKGROW - Incoming Grown Player (used if "Powerup Warning" is set to 'Music')
+DSITROL1-8 - Item Roulette sounds
+DSITROLF - Item get (Normal Odds(Letting the item roulette finish on its own))
+DSITROLE - Eggman Bomb Warning
+DSITROLM - Item get (Worse Odds(Mashing the item button to stop the roulette early))
+DSITROLK - Item get (Enhanced Odds(From UFOs or Karma Items))
+DSVROOM - SRB2Kart startup sound
+DSCHAOOO - Chao sound
+DSYEEEAH - Your map vote is selected
+DSNOOOO1 - A hell map is selected
+DSNOOOO2 - A hell map is unanimously selected (Everyone votes for a random stage)
+DSRUBY1-2 - Encore Mode map loading
+DSTCART - Twinkle Cart sound (Unknown where it is heard)
+DSBFARE - All bowling pins are knocked down in Pleasure Castle
+DSMERRY - Pleasure Castle Merry-go-round sound
+DSBOWLH - Knocking down a bowling pin in Pleasure Castle
+DSTPPOP - Running into an Exploding Barrel
+DSHSDOOR - Red Barrage Area Door opening
+DSHSTRN - Red Barrage Area sound 
+DSASPKB - Egg Quarters crusher
+DSWIND1 - Midnight Channel sound
+DSFIRE2 - Midnight Channel sound
+DSCHAIN - The Reaper's chain sounds in Mementos
+DSMKUMA - Monokuma approaching in Trigger Happy Havoc
+DSTOADA - Running into a Toad in Arid Sands 
+DSITFREE - Item Toggles Gag Box
+DSDBGSAL - Item get (Forced Odds (kartdebugitem))
+DSKRTA1-12 - Lightweight Acceleration character's motor sounds
+DSKRTB1-12 - Lightweight Balanced character's motor sounds
+DSKRTC1-12 - Lightweight Speed character's motor sounds
+DSKRTD1-12 - Middleweight Acceleration character's motor sounds
+DSKRTE1-12 - Middleweight Balanced character's motor sounds
+DSKRTF1-12 - Middleweight Speed character's motor sounds
+DSKRTG1-12 - Heavyweight Acceleration character's motor sounds
+DSKRTH1-12 - Heavyweight Balanced character's motor sounds
+DSKRTI1-12 - Heavyweight Speed character's motor sounds
+
+---patch.kart added Sounds---
+DSBSNIPE - Directly hitting a player with a Banana or Kitchen Sink (Plays globally if a Kitchen Sink hits)
+DSWRINK - Black Bliss easter egg sound
+DSJOIN - A player joins the server
+DSLEAVE - A player leaves the server
+DSREQUST - A player requests to join through Discord
+DSSYFAIL - A player leaves the server from sync fail or timing out
+
+---Sonic 1 Sounds used---
+DSS1A2 - Monty Mole latching onto you
+DSS1AB - Shaking off a Monty Mole
+DSS1AC - Monty Mole shaken off
+
+---Sonic 2 Sounds used---
+DSS23C - SRB2Kart Title Screen sound (Background Flash), Sparks/Mini-Turbo boost
+DSS23E - SRB2Kart Title Screen sound ("KART" appears)
+DSS221 - Lap completed, Add-on loaded
+DSS224 - Lua or SOC warning when adding an add-on, Adjusting your angle after a spinout or when finished (Holding Brake + Accel)
+DSS253 - Someone finishes 1st
+DSS254 - Banana, Eggman Monitor, Kitchen Sink, or Mine deployed
+DSS259 - Physical Item collision destruction (For example, using an Orbinaut to block another Orbinaut)
+DSS26D - Wrong Way/Too many checkpoints skipped
+DSS25F - Perfect Start Boost
+
+---Sonic 3(K) Sounds used---
+DSS3K35 - Player Death
+DSS3K3A - Orbinaut/Jawz/Rocket Sneakers deployed
+DSS3K41 - Lightning Shield get
+DSS3K49 - Player/Orbinaut bumping off a wall
+DSS3K4E - Explosion
+DSS3K5B - Button press
+DSS3K5C - Mine pulsing, Mine/Kitchen Sink bouncing off a wall
+DSS3K5D - Orbinaut/Jawz/Rocket Shoes expiring
+DSS3K68 - Final Lap
+DSS3K6A - Finished
+DSS3K77 - Balloon Pop
+DSS3K7B - Orbinaut/Jawz hitting a player
+DSS3K7E - Signpost Landing
+DSS3K83 - Overcharged Start Boost spin out
+DSS3K89 - Jawz lock-on reticle
+DSS3K92 - Hyudoro sound
+DSS3K96 - Orbinaut rolling
+DSS3KA2 - Sparks/Mini-Turbo charged
+DSS3KA7 - Starting Countdown (3, 2, 1)
+DSS3KAD - Starting Countdown (GO)
+DSS3KB8 - Signpost descending
+DSS3KBDS - Egg Zeppelin ambience
+DSS3KC0S - Jawz homing
+DSS3KC3S - Record Attack medal lost
+DSS3KCAS - Player respawning from falling off the track
+
+---Sonic CD Sounds used---
+DSCDFM00 - Failed Start Boost
+DSCDFM01 - Speed/Rocket Shoes used, Sneaker Panel
+DSCDFM17 - Brake Drifting
+DSCDFM19 - UFO explosion
+DSCDFM28 - Eggman Monitor landing/bouncing off a wall
+DSCDFM39 - Mine armed
+DSCDFM63 - Spotted by a spotlight in Spotlight Syndicate
+DSCDFM70 - Offroad, Dragging an item for too long
+DSCDFM73 - UFO destroyed
+DSCDPCM9 - Flashing Invincibility
+
+---Sonic 3D Blast Sounds used---
+DS3DB06 - Stealing a Bumper, Getting back into a Battle game after losing all Bumpers
+
+---Knuckles Chaotix Sounds used---
+DSKC2E - Item/Eggman Monitor pop
+DSKC2F - Spring Panel
+DSKC31 - DNF Explosion
+DSKC39 - Map voting roulette beep
+DSKC42 - Entering a secret code
+DSKC46 - Shrink used, Canceling a Grow
+DSKC48 - Map selected
+DSKC51 - DNF "putput" sounds
+DSKC57 - Self-Propelled Bomb Warning
+DSKC59 - Shrunken
+DSKC5A - Grow used
+DSKC64 - Self-Propelled Bomb Chase
